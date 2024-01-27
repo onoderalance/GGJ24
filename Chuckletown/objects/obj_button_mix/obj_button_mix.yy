@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_button_mix",
+    "path": "sprites/spr_button_mix/spr_button_mix.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

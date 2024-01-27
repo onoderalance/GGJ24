@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_glass_beer",
+    "path": "sprites/spr_glass_beer/spr_glass_beer.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

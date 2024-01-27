@@ -1,1 +1,1 @@
-m_name = "tequila";
+m_name = "whisky";
