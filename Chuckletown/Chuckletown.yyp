@@ -37,7 +37,6 @@
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},},
     {"id":{"name":"spr_ui_time_tracker","path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},},
-    {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
     {"id":{"name":"obj_comedian","path":"objects/obj_comedian/obj_comedian.yy",},},
     {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
     {"id":{"name":"obj_bartender","path":"objects/obj_bartender/obj_bartender.yy",},},
