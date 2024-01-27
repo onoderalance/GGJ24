@@ -1,12 +1,16 @@
-if mouse_check_button(mb_left) {
+if (instance_exists(obj_customer)) {
 	origin = obj_bartender
-	var x_orig = origin.x;
-	var y_orig = origin.y;
-
-	var x_dest = mouse_x;
-	var y_dest = mouse_y;
-	//var x_dest = target_x;
-	//var y_dest = target_y;
+		var x_orig = origin.x;
+		var y_orig = origin.y;
+	if (locked == false) {
+		var x_dest = instance_nearest(mouse_x, mouse_y, obj_customer).x;
+		var y_dest = instance_nearest(mouse_x, mouse_y, obj_customer).y;
+		//var x_dest = target_x;
+		//var y_dest = target_y;
+	} else {
+		var x_dest = chosen_customer_x;
+		var y_dest = chosen_customer_y;
+	}
 
 	x = x_orig;
 	y = y_orig
@@ -20,5 +24,12 @@ if mouse_check_button(mb_left) {
 		y + lengthdir_y(i * _width, _angle),
 		1, 1, _angle, image_blend, image_alpha);
 	}
+	if (mouse_check_button(mb_left)) {
+		locked = true;
+		chosen_customer_x = instance_nearest(mouse_x, mouse_y, obj_customer).x;
+		chosen_customer_y = instance_nearest(mouse_x, mouse_y, obj_customer).y;
+	}
+	
 	show_debug_message("drew dotted line");
 }
+	
