@@ -43,7 +43,7 @@
     {"id":{"name":"obj_ui_time","path":"objects/obj_ui_time/obj_ui_time.yy",},},
     {"id":{"name":"obj_drink","path":"objects/obj_drink/obj_drink.yy",},},
     {"id":{"name":"spr_ui_time_base","path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},},
-    {"id":{"name":"s_martini_glass","path":"sprites/s_martini_glass/s_martini_glass.yy",},},
+    {"id":{"name":"spr_martini_glass","path":"sprites/spr_martini_glass/spr_martini_glass.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
