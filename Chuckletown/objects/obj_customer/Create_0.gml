@@ -12,6 +12,7 @@ target_table = noone;
 
 target = false;
 
+cust_name = "";
 drink_pref = "";
 mood = 1;
 

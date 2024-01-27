@@ -13,6 +13,9 @@ show_debug_message("spawning");
 var _new_customer = instance_create_layer(initial_x-16, initial_y-16, "Instances", obj_customer);
 _new_customer.target_table = _chosen_table;
 
+//add name for customer
+_new_customer.cust_name = "Zoombini";
+
 //start motion planning movement for new customer
 with(_new_customer)
 {
