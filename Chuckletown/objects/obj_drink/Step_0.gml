@@ -8,6 +8,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	var _drink = instance_position(mouse_x, mouse_y, obj_drink);
 	if (_drink != noone) {
 		show_debug_message(_drink.m_name);
+		obj_bartender.m_has_drink = false;
 		instance_destroy(_drink);
 	}
 }

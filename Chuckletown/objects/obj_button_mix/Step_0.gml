@@ -13,11 +13,12 @@ m_num_selected = ing_arr[0]+ing_arr[1] + ing_arr[2] + ing_arr[3]
 if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on the mix button
 	
-	if (instance_position(mouse_x, mouse_y, obj_button_mix) && (m_num_selected == 2)) {
+	if (instance_position(mouse_x, mouse_y, obj_button_mix) && (m_num_selected == 2) && (!obj_bartender.m_has_drink)) {
 		//vodka, whisky, seltzer, juice
 		
 		//convert array to a number using binary, e.g. vokda and whisky is [1,1,0,0] = 12
 		var ingredients_code = (8*ing_arr[0]) + (4*ing_arr[1]) + (2*ing_arr[2]) + (1*ing_arr[3]);
+		
 		
 		switch(ingredients_code) {
 			case 12:
@@ -26,6 +27,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_name = "beer";
 				m_new_drink = "beer";
 				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
 				break;
 			case 10:
 				//create a fat twink
@@ -33,6 +35,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_name = "fat twink";
 				m_new_drink = "fat twink";
 				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
 				break;
 			case 9:
 				//create an allen wrench
@@ -40,6 +43,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_name = "allen wrench";
 				m_new_drink = "allen wrench";
 				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
 				break;
 			case 5:
 				//create a boom box
@@ -47,6 +51,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_name = "boom box";
 				m_new_drink = "boom box";
 				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
 				break;
 			case 3:
 				//create a san penguino
@@ -54,6 +59,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_name = "san penguino";
 				m_new_drink = "san penguino";
 				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
 				break;
 		}
 			
