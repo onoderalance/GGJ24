@@ -1,16 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ui_laugh",
-<<<<<<< Updated upstream
-  "eventList": [],
-=======
+  "name": "obj_manager_customer",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
->>>>>>> Stashed changes
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -33,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_ui_laugh",
-    "path": "sprites/spr_ui_laugh/spr_ui_laugh.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

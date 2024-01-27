@@ -38,10 +38,8 @@
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
     {"name":"spr_ingredient_vodka","order":7,"path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},
     {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
-    {"name":"rm_connor","order":1,"path":"rooms/rm_connor/rm_connor.yy",},
     {"name":"spr_ingredient_seltzer","order":10,"path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
-    {"name":"obj_ui_laugh","order":10,"path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},
     {"name":"obj_crosshair","order":9,"path":"objects/obj_crosshair/obj_crosshair.yy",},
   ],
 }
