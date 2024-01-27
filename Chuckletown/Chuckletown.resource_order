@@ -32,6 +32,7 @@
     {"name":"obj_customer","order":4,"path":"objects/obj_customer/obj_customer.yy",},
     {"name":"spr_ui_time_tracker","order":2,"path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},
     {"name":"obj_customer_display","order":19,"path":"objects/obj_customer_display/obj_customer_display.yy",},
+    {"name":"blue_bar","order":26,"path":"sprites/blue_bar/blue_bar.yy",},
     {"name":"obj_comedian","order":6,"path":"objects/obj_comedian/obj_comedian.yy",},
     {"name":"rm_henry","order":2,"path":"rooms/rm_henry/rm_henry.yy",},
     {"name":"spr_table","order":16,"path":"sprites/spr_table/spr_table.yy",},
