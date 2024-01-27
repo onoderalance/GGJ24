@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bartender",
+    "path": "sprites/spr_bartender/spr_bartender.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
