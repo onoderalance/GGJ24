@@ -31,6 +31,7 @@
     {"name":"obj_drink","order":2,"path":"objects/obj_drink/obj_drink.yy",},
     {"name":"spr_ui_time_base","order":1,"path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},
     {"name":"spr_glass_martini","order":3,"path":"sprites/spr_glass_martini/spr_glass_martini.yy",},
+    {"name":"spr_customer","order":11,"path":"sprites/spr_customer/spr_customer.yy",},
     {"name":"spr_glass_beer","order":4,"path":"sprites/spr_glass_beer/spr_glass_beer.yy",},
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
     {"name":"spr_ingredient_vodka","order":7,"path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},
