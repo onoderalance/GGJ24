@@ -1,4 +1,5 @@
 count_spawn_rate--;
+//if the table list has a free table, spawn a customer
 if(ds_list_size(table_list) > 0 && count_spawn_rate <= 0) {
 	alarm[0] = spawn_rate;
 	show_debug_message("called alarm0");
