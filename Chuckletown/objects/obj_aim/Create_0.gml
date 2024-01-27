@@ -6,3 +6,7 @@ visible = false;
 aiming = false;
 
 angle_towards_target = 0;
+
+target_set = false;
+
+indicator_direction = 1;
