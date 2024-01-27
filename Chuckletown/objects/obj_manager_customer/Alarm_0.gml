@@ -21,8 +21,8 @@ with(_new_customer)
 	m_path = path_add();
 	var _target_x = target_table.x + 16;
 	var _target_y = target_table.y;
-	var _start_x = x;
-	var _start_y = y;
+	var _start_x = x-16;
+	var _start_y = y-16;
 	if(mp_grid_path(global.grid, m_path, _start_x, _start_y, _target_x, _target_y, true))
 		show_debug_message("done");
 	show_debug_message("Start Pos: " + string(x) + " - " + string(y));
