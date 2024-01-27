@@ -27,6 +27,7 @@
     {"name":"spr_ui_time_base","order":1,"path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},
     {"name":"spr_martini_glass","order":3,"path":"sprites/spr_martini_glass/spr_martini_glass.yy",},
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
+    {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
     {"name":"obj_crosshair","order":9,"path":"objects/obj_crosshair/obj_crosshair.yy",},
   ],

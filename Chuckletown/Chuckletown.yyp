@@ -45,6 +45,7 @@
     {"id":{"name":"spr_ui_time_base","path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},},
     {"id":{"name":"spr_martini_glass","path":"sprites/spr_martini_glass/spr_martini_glass.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
+    {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
