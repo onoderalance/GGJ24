@@ -1,4 +1,4 @@
-crosshair_target = false;
+target = false;
 
 image_speed = 0;
 

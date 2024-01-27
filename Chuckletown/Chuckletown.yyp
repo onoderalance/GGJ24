@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_ui_laugh","path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},},
+    {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"spr_ingredient_whisky","path":"sprites/spr_ingredient_whisky/spr_ingredient_whisky.yy",},},
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},},
@@ -49,7 +50,9 @@
     {"id":{"name":"obj_drink","path":"objects/obj_drink/obj_drink.yy",},},
     {"id":{"name":"spr_ui_time_base","path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},},
     {"id":{"name":"spr_glass_martini","path":"sprites/spr_glass_martini/spr_glass_martini.yy",},},
+    {"id":{"name":"spr_customer","path":"sprites/spr_customer/spr_customer.yy",},},
     {"id":{"name":"spr_glass_beer","path":"sprites/spr_glass_beer/spr_glass_beer.yy",},},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
