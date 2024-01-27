@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_glass_martini",
+    "path": "sprites/spr_glass_martini/spr_glass_martini.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
