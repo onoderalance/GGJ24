@@ -9,6 +9,10 @@ m_num_selected = ing_arr[0]+ing_arr[1] + ing_arr[2] + ing_arr[3]
 	} else {
 		image_blend = c_gray;
 	}
+	
+if (instance_position(mouse_x,mouse_y,obj_button_mix) && m_num_selected == 2){
+	image_blend += 0.5;
+}
 
 if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on the mix button
