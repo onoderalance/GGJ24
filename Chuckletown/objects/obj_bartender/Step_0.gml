@@ -11,18 +11,19 @@ if (mouse_check_button_pressed(mb_left)) {
 		switch(_ingredient.m_name)
 		 {
 			 case ("vodka"):
-				ds_list_replace(m_ingredient_list, 0, !ds_list_find_index(m_ingredient_list, 0));
+				m_ingredient_array[0] = !m_ingredient_array[0];
 				break;
 			case ("whisky"):
-				ds_list_replace(m_ingredient_list, 1, !ds_list_find_index(m_ingredient_list, 1));
+				m_ingredient_array[1] = !m_ingredient_array[1];
 				break;
 			case ("seltzer"):
-				ds_list_replace(m_ingredient_list, 2, !ds_list_find_index(m_ingredient_list, 2));
+				m_ingredient_array[2] = !m_ingredient_array[2];
 				break;
 			case ("juice"):
-				ds_list_replace(m_ingredient_list, 3, !ds_list_find_index(m_ingredient_list, 3));
+				m_ingredient_array[3] = !m_ingredient_array[3];
 				break;
 		 }
+		 
 	}
 	
 	

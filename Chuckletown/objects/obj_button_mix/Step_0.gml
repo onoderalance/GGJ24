@@ -3,6 +3,7 @@
 
 if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on the ix button
+	/*
 	if (instance_position(mouse_x, mouse_y, obj_button_mix)) {
 		if (ds_list_find_index(obj_bartender.m_ingredient_list, "vodka") > -1) {
 			if (ds_list_find_index(obj_bartender.m_ingredient_list, "seltzer") > -1) {
@@ -32,6 +33,18 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.name = "boom box";
 			}
 		}
+	} */
+	
+	if (instance_position(mouse_x, mouse_y, obj_button_mix)) {
+		//vodka, whisky, seltzer, juice
+		var ing_arr = obj_bartender.m_ingredient_array;
+		//convert array to a number using binary, e.g. vokda and whisky is [1,1,0,0] = 12
+		var ingredients_code = (8*ing_arr[0]) + (4*ing_arr[1]) + (2*ing_arr[2]) + (1*ing_arr[3]);
+		switch(ingredients_code) {
+			case 0:
+				break;
+		}
+			
 	}
 	
 	
