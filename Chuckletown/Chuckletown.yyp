@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"obj_manager_customer","path":"objects/obj_manager_customer/obj_manager_customer.yy",},},
+    {"id":{"name":"spr_mixing_background","path":"sprites/spr_mixing_background/spr_mixing_background.yy",},},
     {"id":{"name":"spr_ui_laugh_fill","path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},},
     {"id":{"name":"spr_ui_laugh","path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},},
     {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"rm_aria","path":"rooms/rm_aria/rm_aria.yy",},},
     {"id":{"name":"obj_ui_laugh","path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},},
+    {"id":{"name":"spr_button_background","path":"sprites/spr_button_background/spr_button_background.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
   ],
