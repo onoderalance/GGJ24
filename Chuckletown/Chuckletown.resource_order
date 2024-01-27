@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_ui_laugh","order":6,"path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},
     {"name":"obj_ingredient","order":1,"path":"objects/obj_ingredient/obj_ingredient.yy",},
     {"name":"obj_customer","order":4,"path":"objects/obj_customer/obj_customer.yy",},
     {"name":"spr_ui_time_tracker","order":2,"path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},
@@ -30,7 +31,9 @@
     {"name":"spr_glass_beer","order":4,"path":"sprites/spr_glass_beer/spr_glass_beer.yy",},
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
     {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
+    {"name":"rm_connor","order":1,"path":"rooms/rm_connor/rm_connor.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
+    {"name":"obj_ui_laugh","order":10,"path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},
     {"name":"obj_crosshair","order":9,"path":"objects/obj_crosshair/obj_crosshair.yy",},
   ],
 }
