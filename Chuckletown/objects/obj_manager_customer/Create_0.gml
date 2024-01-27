@@ -1,3 +1,16 @@
+function table_available()
+{
+	//check every table for a valid table
+	for(var i = 0; i < ds_list_size(table_list); i++)
+	{
+		if(!ds_list_find_value(table_list, i).occupied)
+			return true;
+	}
+	//did not find an unoccupied trable
+	return false;
+}
+
+
 total_num_customers = 0;
 
 //position that it moves from (bottom right currently)
@@ -17,10 +30,3 @@ for (var i = 0; i < instance_number(obj_table); i++;)
 	ds_list_add(table_list, instance_find(obj_table,i));
 }
 
-////removes occupied tables from list
-//for (var i = 0; i < ds_list_size(table_list); ++i;) {
-//	if (ds_list_find_value(table_list, i).occupied == true) {
-//		ds_list_delete(table_list, i)
-//		i--;
-//	}
-//}
