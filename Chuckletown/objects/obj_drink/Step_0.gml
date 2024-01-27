@@ -11,3 +11,21 @@ if (mouse_check_button_pressed(mb_left)) {
 		instance_destroy(_drink);
 	}
 }
+
+switch (m_name) {
+	case ("beer"):
+		image_blend = c_yellow;
+		break;
+	case ("fat twink"):
+		image_blend = c_blue;
+		break;
+	case ("allen wrench"):
+		image_blend = c_orange;
+		break;
+	case ("boom box"):
+		image_blend = c_purple;
+		break;
+	case ("san penguino"):
+		image_blend = c_red;
+		break;
+}
