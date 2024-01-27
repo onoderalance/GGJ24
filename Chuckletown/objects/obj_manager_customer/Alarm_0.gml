@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 show_debug_message("pre-spawning");
 
 with (instance_create_layer(initial_x, initial_y, "Instances", obj_customer)) {
@@ -14,4 +15,11 @@ if ds_list_size(table_list) <= 0 {
 }
 total_num_customers++;
 show_debug_message(total_num_customers)
+=======
+/// @description Insert description here
+// You can write your code in this editor
+
+
+
+>>>>>>> Stashed changes
 
