@@ -7,7 +7,22 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (_ingredient != noone) {
 		show_debug_message(_ingredient.m_name);
 		//add this ingredient to the ingredient list
-		ds_list_add(m_ingredient_list, _ingredient.m_name);
+		//ds_list_add(m_ingredient_list, _ingredient.m_name);
+		switch(_ingredient.m_name)
+		 {
+			 case ("vodka"):
+				ds_list_replace(m_ingredient_list, 0, !ds_list_find_index(m_ingredient_list, 0));
+				break;
+			case ("whisky"):
+				ds_list_replace(m_ingredient_list, 1, !ds_list_find_index(m_ingredient_list, 1));
+				break;
+			case ("seltzer"):
+				ds_list_replace(m_ingredient_list, 2, !ds_list_find_index(m_ingredient_list, 2));
+				break;
+			case ("juice"):
+				ds_list_replace(m_ingredient_list, 3, !ds_list_find_index(m_ingredient_list, 3));
+				break;
+		 }
 	}
 	
 	
