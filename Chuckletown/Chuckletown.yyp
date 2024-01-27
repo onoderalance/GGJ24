@@ -52,6 +52,7 @@
     {"id":{"name":"spr_glass_martini","path":"sprites/spr_glass_martini/spr_glass_martini.yy",},},
     {"id":{"name":"spr_customer","path":"sprites/spr_customer/spr_customer.yy",},},
     {"id":{"name":"spr_glass_beer","path":"sprites/spr_glass_beer/spr_glass_beer.yy",},},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
