@@ -6,6 +6,10 @@ var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
 if (_ingredient != noone) {
 	_ingredient.image_blend += 2;
 }
+var _glass = instance_position(mouse_x, mouse_y, obj_button_cup);
+if (_glass != noone) {
+	_glass.image_blend += 2;
+}
 	
 
 //clicking on ingredients
@@ -19,7 +23,6 @@ if (mouse_check_button_pressed(mb_left)) {
 		switch(_ingredient.m_name)
 		 {
 			 case ("vodka"):
-				_ingredient.image_blend = c_red;
 				m_ingredient_array[0] = !m_ingredient_array[0];
 				break;
 			case ("whisky"):
