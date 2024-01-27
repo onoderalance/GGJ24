@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 m_name = "";
-m_cup = "beer";
+m_cup = obj_bartender.m_cup;
 
 switch (m_cup) {
 	case ("beer"):
