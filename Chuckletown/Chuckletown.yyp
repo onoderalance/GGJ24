@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_ui_laugh","path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},},
+    {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"spr_ingredient_whisky","path":"sprites/spr_ingredient_whisky/spr_ingredient_whisky.yy",},},
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},},
