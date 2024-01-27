@@ -1,7 +1,8 @@
 switch(state)
 {
 	case CUSTOMER_STATE.ENTERING:
-		
+		if(x == target_table.x+16 && y == target_table.y)
+			state = CUSTOMER_STATE.DRINKING;
 		break;
 	case CUSTOMER_STATE.DRINKING:
 		count_inc_rate--;
