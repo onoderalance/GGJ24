@@ -38,6 +38,7 @@
     {"id":{"name":"spr_ui_laugh_fill","path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},},
     {"id":{"name":"spr_ui_laugh","path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},},
     {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
+    {"id":{"name":"obj_button_cup","path":"objects/obj_button_cup/obj_button_cup.yy",},},
     {"id":{"name":"spr_ingredient_whisky","path":"sprites/spr_ingredient_whisky/spr_ingredient_whisky.yy",},},
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
