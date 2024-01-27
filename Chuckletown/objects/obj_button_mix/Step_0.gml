@@ -24,14 +24,17 @@ if (mouse_check_button_pressed(mb_left)) {
 			case 12:
 				//create a beer
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
 				newDrink.m_name = "beer";
 				m_new_drink = "beer";
 				newDrink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
+				
 				break;
 			case 10:
 				//create a fat twink
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
 				newDrink.m_name = "fat twink";
 				m_new_drink = "fat twink";
 				newDrink.m_cup = obj_bartender.m_cup;
@@ -40,6 +43,7 @@ if (mouse_check_button_pressed(mb_left)) {
 			case 9:
 				//create an allen wrench
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
 				newDrink.m_name = "allen wrench";
 				m_new_drink = "allen wrench";
 				newDrink.m_cup = obj_bartender.m_cup;
@@ -48,6 +52,7 @@ if (mouse_check_button_pressed(mb_left)) {
 			case 5:
 				//create a boom box
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
 				newDrink.m_name = "boom box";
 				m_new_drink = "boom box";
 				newDrink.m_cup = obj_bartender.m_cup;
@@ -56,6 +61,7 @@ if (mouse_check_button_pressed(mb_left)) {
 			case 3:
 				//create a san penguino
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
 				newDrink.m_name = "san penguino";
 				m_new_drink = "san penguino";
 				newDrink.m_cup = obj_bartender.m_cup;
