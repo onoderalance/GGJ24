@@ -1,3 +1,15 @@
+enum CUSTOMER_STATE {
+	ENTERING,
+	DRINKING,
+	LEAVING,
+}
+
+state = CUSTOMER_STATE.ENTERING;
+
+target_table = noone;
+
+//m_path = path_add();
+
 target = false;
 
 drink_pref = "";

@@ -9,12 +9,16 @@
 
 //DEFINE GLOBAL VARIABLES
 
+//stores whether debug checking is on
+global.debug = false;
+
 //tracks current time in ticks
 global.time_tick = 0;
 //current time in second
 global.time_sec = 0;
 //laugh meter percent 0-100
 global.laughter = 100;
+
 
 //tracks current comedy set (0 or 1)
 global.set = 0;
