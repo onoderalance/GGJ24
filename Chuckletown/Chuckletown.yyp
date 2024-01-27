@@ -45,6 +45,7 @@
     {"id":{"name":"obj_bartender","path":"objects/obj_bartender/obj_bartender.yy",},},
     {"id":{"name":"obj_drink","path":"objects/obj_drink/obj_drink.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
+    {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},

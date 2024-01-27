@@ -27,6 +27,7 @@
     {"name":"obj_bartender","order":7,"path":"objects/obj_bartender/obj_bartender.yy",},
     {"name":"obj_drink","order":2,"path":"objects/obj_drink/obj_drink.yy",},
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
+    {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
   ],
 >>>>>>> Stashed changes
