@@ -15,7 +15,7 @@ with(instance_create_layer(initial_x, initial_y, "Instances", obj_customer)) {
 ds_list_delete(table_list, ds_list_find_index(table_list, chosen_table))
 
 //repeat
-alarm[0] = spawn_rate;
+alarm[0] = customer_spawn_rate;
 //if no more empty tables, don't spawn any more
 if ds_list_size(table_list) <= 0 {
 	alarm[0] = -1;

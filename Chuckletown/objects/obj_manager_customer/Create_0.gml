@@ -9,7 +9,7 @@ table_list = ds_list_create();
 
 //frequency of customeer spawns
 customer_spawn_rate = 60;
-customer_spawn_tick = spawn_rate;
+customer_spawn_tick = customer_spawn_rate;
 
 //adds all tables to list
 for (var i = 0; i < instance_number(obj_table); i++;)
