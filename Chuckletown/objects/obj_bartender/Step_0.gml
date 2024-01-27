@@ -4,7 +4,7 @@
 //hovering over ingredients
 var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
 if (_ingredient != noone) {
-	_ingredient.image_blend = c_dkgray;
+	_ingredient.image_blend += 2;
 }
 	
 
