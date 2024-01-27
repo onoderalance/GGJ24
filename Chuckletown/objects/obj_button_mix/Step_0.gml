@@ -41,7 +41,30 @@ if (mouse_check_button_pressed(mb_left)) {
 		//convert array to a number using binary, e.g. vokda and whisky is [1,1,0,0] = 12
 		var ingredients_code = (8*ing_arr[0]) + (4*ing_arr[1]) + (2*ing_arr[2]) + (1*ing_arr[3]);
 		switch(ingredients_code) {
-			case 0:
+			case 12:
+				//create a beer
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				newDrink.name = "beer";
+				break;
+			case 10:
+				//create a fat twink
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				newDrink.name = "fat twink";
+				break;
+			case 9:
+				//create an allen wrench
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				newDrink.name = "allen wrench";
+				break;
+			case 5:
+				//create a boom box
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				newDrink.name = "boom box";
+				break;
+			case 3:
+				//create a san penguino
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				newDrink.name = "san penguino";
 				break;
 		}
 			
