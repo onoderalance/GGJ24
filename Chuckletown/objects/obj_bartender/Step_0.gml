@@ -7,6 +7,8 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (_ingredient != noone) {
 		show_debug_message(_ingredient.m_name);
 		//add this ingredient to the ingredient list
-		ds_list_add(m_ingredient_list, _ingredient);
+		ds_list_add(m_ingredient_list, _ingredient.m_name);
 	}
+	
+	
 }
