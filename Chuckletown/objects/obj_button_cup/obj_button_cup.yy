@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_glass_martini",
-    "path": "sprites/spr_glass_martini/spr_glass_martini.yy",
+    "name": "spr_button_background",
+    "path": "sprites/spr_button_background/spr_button_background.yy",
   },
   "spriteMaskId": null,
   "visible": true,
