@@ -20,6 +20,7 @@
     {"name":"spr_ui_laugh_fill","order":13,"path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},
     {"name":"spr_ui_laugh","order":6,"path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},
     {"name":"obj_cursor","order":11,"path":"objects/obj_cursor/obj_cursor.yy",},
+    {"name":"obj_button_cup","order":13,"path":"objects/obj_button_cup/obj_button_cup.yy",},
     {"name":"spr_ingredient_whisky","order":8,"path":"sprites/spr_ingredient_whisky/spr_ingredient_whisky.yy",},
     {"name":"obj_ingredient","order":1,"path":"objects/obj_ingredient/obj_ingredient.yy",},
     {"name":"obj_button_mix","order":12,"path":"objects/obj_button_mix/obj_button_mix.yy",},
