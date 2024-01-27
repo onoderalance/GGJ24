@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_manager_game",
+  "name": "obj_ui_time",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ui_time_base",
+    "path": "sprites/spr_ui_time_base/spr_ui_time_base.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

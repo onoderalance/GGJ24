@@ -36,10 +36,13 @@
   "resources": [
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},},
+    {"id":{"name":"spr_ui_time_tracker","path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},},
     {"id":{"name":"obj_comedian","path":"objects/obj_comedian/obj_comedian.yy",},},
     {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
     {"id":{"name":"obj_bartender","path":"objects/obj_bartender/obj_bartender.yy",},},
+    {"id":{"name":"obj_ui_time","path":"objects/obj_ui_time/obj_ui_time.yy",},},
     {"id":{"name":"obj_drink","path":"objects/obj_drink/obj_drink.yy",},},
+    {"id":{"name":"spr_ui_time_base","path":"sprites/spr_ui_time_base/spr_ui_time_base.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
