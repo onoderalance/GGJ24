@@ -6,7 +6,7 @@ for (myID = 0; myID <obj_manager_customer.total_num_customers; myID++){
 	if(id == IDCheck) {
 		//increase global laughter
 		global.laughter = global.laughter + (mood * inc_amount);
-		show_debug_message("increasing current");
+		//show_debug_message("increasing current");
 		break;
 	}	
 }
