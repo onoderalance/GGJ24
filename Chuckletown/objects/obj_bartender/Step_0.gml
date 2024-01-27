@@ -6,6 +6,10 @@ var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
 if (_ingredient != noone) {
 	_ingredient.image_blend += 2;
 }
+var _glass = instance_position(mouse_x, mouse_y, obj_button_cup);
+if (_glass != noone) {
+	_glass.image_blend += 2;
+}
 	
 
 //clicking on ingredients
