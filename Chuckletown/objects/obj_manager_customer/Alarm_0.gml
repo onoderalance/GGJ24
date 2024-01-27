@@ -27,7 +27,7 @@ with(_new_customer)
 		show_debug_message("done");
 	show_debug_message("Start Pos: " + string(x) + " - " + string(y));
 	show_debug_message("End Pos: " + string(_target_x) + " - " + string(_target_y));
-	path_start(m_path, 10, path_action_stop, true);
+	path_start(m_path, 5, path_action_stop, true);
 	show_debug_message("kms");
 }
 

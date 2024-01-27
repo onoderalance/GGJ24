@@ -19,7 +19,7 @@ total_num_customers = 0;
 global.grid = mp_grid_create(0, 0, room_width / 16, room_height / 16, 16, 16);
 
 //add obstacles to the grid
-//mp_grid_add_instances(global.grid, obj_table, false);
+mp_grid_add_instances(global.grid, obj_table, false);
 mp_grid_add_instances(global.grid, obj_collision, false);
 
 //position that it moves from (bottom right currently)
