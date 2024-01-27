@@ -11,6 +11,7 @@ if (mouse_check_button_pressed(mb_left)) {
 		switch(_ingredient.m_name)
 		 {
 			 case ("vodka"):
+				_ingredient.image_blend = c_red;
 				m_ingredient_array[0] = !m_ingredient_array[0];
 				break;
 			case ("whisky"):
