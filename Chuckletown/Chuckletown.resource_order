@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_tiles_bar","order":25,"path":"sprites/spr_tiles_bar/spr_tiles_bar.yy",},
     {"name":"obj_manager_customer","order":16,"path":"objects/obj_manager_customer/obj_manager_customer.yy",},
     {"name":"spr_mixing_background","order":20,"path":"sprites/spr_mixing_background/spr_mixing_background.yy",},
     {"name":"spr_ui_laugh_fill","order":13,"path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},
@@ -35,6 +36,7 @@
     {"name":"rm_henry","order":2,"path":"rooms/rm_henry/rm_henry.yy",},
     {"name":"spr_table","order":16,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"obj_aim","order":21,"path":"objects/obj_aim/obj_aim.yy",},
+    {"name":"spr_mood","order":24,"path":"sprites/spr_mood/spr_mood.yy",},
     {"name":"spr_ingredient_juice","order":9,"path":"sprites/spr_ingredient_juice/spr_ingredient_juice.yy",},
     {"name":"obj_bartender","order":7,"path":"objects/obj_bartender/obj_bartender.yy",},
     {"name":"obj_ui_time","order":8,"path":"objects/obj_ui_time/obj_ui_time.yy",},

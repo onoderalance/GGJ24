@@ -4,11 +4,15 @@
 //number of drinks selected, must be 2 to make a drink
 var ing_arr = obj_bartender.m_ingredient_array;
 m_num_selected = ing_arr[0]+ing_arr[1] + ing_arr[2] + ing_arr[3]
-	if (m_num_selected == 2) {
-		image_blend = c_white;
+if (m_num_selected == 2 && !obj_bartender.m_has_drink) {
+	if instance_position(mouse_x,mouse_y,obj_button_mix) {
+		image_blend = c_ltgray;
 	} else {
-		image_blend = c_gray;
+		image_blend = c_white;
 	}
+} else {
+	image_blend = c_gray;
+}
 
 if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on the mix button
