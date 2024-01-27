@@ -1,3 +1,4 @@
+//script to see if there is a free table
 function table_available()
 {
 	//check every table for a valid table
@@ -9,7 +10,6 @@ function table_available()
 	//did not find an unoccupied trable
 	return false;
 }
-
 
 total_num_customers = 0;
 
