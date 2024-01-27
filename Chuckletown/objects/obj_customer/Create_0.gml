@@ -1,8 +1,8 @@
 target = false;
 
 drink_pref = "";
-mood = 1;
-inc_amount = 10;
+mood = 1; //-1, 0, 1, 2, 3
+inc_amount = 1;
 
 inc_rate = 60;
 count_inc_rate = inc_rate;
