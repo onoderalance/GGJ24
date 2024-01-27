@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_tiles_bar","order":25,"path":"sprites/spr_tiles_bar/spr_tiles_bar.yy",},
     {"name":"obj_manager_customer","order":16,"path":"objects/obj_manager_customer/obj_manager_customer.yy",},
     {"name":"spr_mixing_background","order":20,"path":"sprites/spr_mixing_background/spr_mixing_background.yy",},
     {"name":"spr_ui_laugh_fill","order":13,"path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},
