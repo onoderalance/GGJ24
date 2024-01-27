@@ -4,11 +4,11 @@
 //hovering over ingredients
 var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
 if (_ingredient != noone) {
-	_ingredient.image_blend += 2;
+	_ingredient.image_blend = c_ltgray;
 }
 var _glass = instance_position(mouse_x, mouse_y, obj_button_cup);
 if (_glass != noone) {
-	_glass.image_blend += 2;
+	_glass.image_blend = c_ltgray;
 }
 	
 
