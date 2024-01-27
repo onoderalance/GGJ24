@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_glass_martini",
-    "path": "sprites/spr_glass_martini/spr_glass_martini.yy",
+    "name": "spr_ingredient_vodka",
+    "path": "sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",
   },
   "spriteMaskId": null,
   "visible": true,
