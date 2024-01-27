@@ -7,6 +7,9 @@
 
 //DEFINE GLOBAL VARIABLES
 
+//tracks current time in ticks
+global.time = 0;
+
 
 
 
