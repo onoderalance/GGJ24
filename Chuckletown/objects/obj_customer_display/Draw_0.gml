@@ -6,7 +6,7 @@ var cust_instance = instance_position(mouse_x,mouse_y,obj_customer);
 if cust_instance != noone 
 {
 	draw_self(); // a wild box was summoned!
-	draw_set_font();
+	draw_set_font(fnt_box);
 	draw_text(x+5, y+2,cust_instance.cust_name);
 	
 	// this is the mood vibe
