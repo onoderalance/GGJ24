@@ -54,6 +54,7 @@
     {"name":"spr_ingredient_seltzer","order":10,"path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},
     {"name":"spr_customer_display","order":18,"path":"sprites/spr_customer_display/spr_customer_display.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
+    {"name":"rm_aria","order":3,"path":"rooms/rm_aria/rm_aria.yy",},
     {"name":"obj_ui_laugh","order":10,"path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},
     {"name":"obj_crosshair","order":9,"path":"objects/obj_crosshair/obj_crosshair.yy",},
   ],
