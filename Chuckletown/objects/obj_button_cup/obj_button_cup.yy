@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ingredient",
+  "name": "obj_button_cup",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ingredient_vodka",
-    "path": "sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",
+    "name": "spr_glass_martini",
+    "path": "sprites/spr_glass_martini/spr_glass_martini.yy",
   },
   "spriteMaskId": null,
   "visible": true,

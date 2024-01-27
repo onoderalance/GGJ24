@@ -38,6 +38,7 @@
     {"id":{"name":"spr_ui_laugh_fill","path":"sprites/spr_ui_laugh_fill/spr_ui_laugh_fill.yy",},},
     {"id":{"name":"spr_ui_laugh","path":"sprites/spr_ui_laugh/spr_ui_laugh.yy",},},
     {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
+    {"id":{"name":"obj_button_cup","path":"objects/obj_button_cup/obj_button_cup.yy",},},
     {"id":{"name":"spr_ingredient_whisky","path":"sprites/spr_ingredient_whisky/spr_ingredient_whisky.yy",},},
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"spr_customer","path":"sprites/spr_customer/spr_customer.yy",},},
     {"id":{"name":"spr_glass_beer","path":"sprites/spr_glass_beer/spr_glass_beer.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
+    {"id":{"name":"obj_roomswapper","path":"objects/obj_roomswapper/obj_roomswapper.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
@@ -70,9 +72,9 @@
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_connor","path":"rooms/rm_connor/rm_connor.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_henry","path":"rooms/rm_henry/rm_henry.yy",},},
+    {"roomId":{"name":"rm_connor","path":"rooms/rm_connor/rm_connor.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

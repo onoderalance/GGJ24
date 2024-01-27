@@ -27,5 +27,10 @@ if (mouse_check_button_pressed(mb_left)) {
 		 
 	}
 	
+	var _cup = instance_position(mouse_x, mouse_y, obj_button_cup);
+	if (_cup != noone) {
+		m_cup = _cup.m_name;
+	}
+	
 	
 }
