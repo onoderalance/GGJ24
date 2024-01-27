@@ -83,6 +83,7 @@
     {"id":{"name":"obj_ui_laugh","path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},},
     {"id":{"name":"spr_aim","path":"sprites/spr_aim/spr_aim.yy",},},
     {"id":{"name":"spr_button_background","path":"sprites/spr_button_background/spr_button_background.yy",},},
+    {"id":{"name":"fnt_box","path":"fonts/fnt_box/fnt_box.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
   ],
