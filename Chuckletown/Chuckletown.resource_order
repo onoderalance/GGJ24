@@ -35,6 +35,7 @@
     {"name":"rm_henry","order":2,"path":"rooms/rm_henry/rm_henry.yy",},
     {"name":"spr_table","order":16,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"obj_aim","order":21,"path":"objects/obj_aim/obj_aim.yy",},
+    {"name":"spr_mood","order":24,"path":"sprites/spr_mood/spr_mood.yy",},
     {"name":"spr_ingredient_juice","order":9,"path":"sprites/spr_ingredient_juice/spr_ingredient_juice.yy",},
     {"name":"obj_bartender","order":7,"path":"objects/obj_bartender/obj_bartender.yy",},
     {"name":"obj_ui_time","order":8,"path":"objects/obj_ui_time/obj_ui_time.yy",},
