@@ -1,3 +1,3 @@
 m_name = "syringe";
 
-sprite_index = spr_glass_syringe;
+draw_sprite(spr_glass_syringe, image_index, x, y);

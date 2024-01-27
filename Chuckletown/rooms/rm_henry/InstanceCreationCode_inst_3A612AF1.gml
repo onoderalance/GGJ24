@@ -1,3 +1,3 @@
 m_name = "martini";
 
-sprite_index = spr_glass_martini;
+draw_sprite(spr_glass_martini, image_index, x, y);
