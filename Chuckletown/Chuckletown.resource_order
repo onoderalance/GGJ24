@@ -20,6 +20,7 @@
     {"name":"obj_ingredient","order":1,"path":"objects/obj_ingredient/obj_ingredient.yy",},
     {"name":"obj_customer","order":4,"path":"objects/obj_customer/obj_customer.yy",},
     {"name":"spr_ui_time_tracker","order":2,"path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},
+    {"name":"spr_ingredient_vodka","order":6,"path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},
     {"name":"obj_comedian","order":6,"path":"objects/obj_comedian/obj_comedian.yy",},
     {"name":"obj_bartender","order":7,"path":"objects/obj_bartender/obj_bartender.yy",},
     {"name":"obj_ui_time","order":8,"path":"objects/obj_ui_time/obj_ui_time.yy",},
