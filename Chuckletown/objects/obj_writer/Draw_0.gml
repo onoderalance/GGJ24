@@ -48,6 +48,7 @@ else
 
 if mouse_check_button_pressed(mb_left)
 {
+	audio_stop_sound(snd_typewriter);
     room = rm_henry;
 }
 

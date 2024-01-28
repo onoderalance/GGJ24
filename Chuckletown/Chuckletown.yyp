@@ -99,6 +99,7 @@
     {"id":{"name":"spr_comedian","path":"sprites/spr_comedian/spr_comedian.yy",},},
     {"id":{"name":"obj_marimba","path":"objects/obj_marimba/obj_marimba.yy",},},
     {"id":{"name":"obj_bass","path":"objects/obj_bass/obj_bass.yy",},},
+    {"id":{"name":"snd_typewriter","path":"sounds/snd_typewriter/snd_typewriter.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
     {"id":{"name":"snd_glass_break","path":"sounds/snd_glass_break/snd_glass_break.yy",},},
     {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
