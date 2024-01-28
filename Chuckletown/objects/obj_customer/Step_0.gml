@@ -1,3 +1,6 @@
+//default depth
+depth = 0;
+
 switch(state)
 {
 	case CUSTOMER_STATE.ENTERING:
@@ -21,6 +24,8 @@ switch(state)
 		}
 		break;
 	case CUSTOMER_STATE.SATIATED:
+		//ensure cup n stuff is drawn atop the table
+		depth = -1;
 		break;
 	case CUSTOMER_STATE.HECKLER:
 		break;

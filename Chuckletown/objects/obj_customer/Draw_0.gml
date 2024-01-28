@@ -53,7 +53,8 @@ if(state == CUSTOMER_STATE.SATIATED)
 			draw_sprite_ext(spr_glass_syringe,0,x-16,y-8, 1, 1, 0, drinkColor, 1);
 			break;
 	}
-	draw_set_color(c_white);
 	//TODO- DRAW CUP ON TABLE - SEE CODE IN THROWABLE FOR PLACE TO RETRIEVE DRINK HIT WITH
 }
+
+
 	
