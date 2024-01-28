@@ -25,6 +25,9 @@ if (aiming = true) {
 		show_debug_message("final throw angle = " + string(final_throw_angle));
 		with (instance_create_layer(obj_bartender.x, obj_bartender.y, "Instances", obj_throwable))
 		{
+			//self.sprite_index = (BARTENDERDRINK).sprite_index
+			
+			
 			direction = final_throw_angle;
 			var rad_direction = degtorad(final_throw_angle);
 			move_towards_point(x+((cos(rad_direction))*10), y-((sin(rad_direction))*10), 4);
