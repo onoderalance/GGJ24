@@ -16,10 +16,10 @@ if (obj_bartender.m_has_drink) {
 
 	if (aiming = true) {
 		visible = true;
-		if (image_angle > ((angle_towards_target + 45)%360) && indicator_direction == 1) {
-			indicator_direction = -1;
-		} else if (image_angle < ((angle_towards_target - 45)%360) && indicator_direction == -1){
-			indicator_direction = 1;
+		if (image_angle > ((angle_towards_target + angle_range)%360) && indicator_direction == 1) {
+			indicator_direction = -aim_speed;
+		} else if (image_angle < ((angle_towards_target - angle_range)%360) && indicator_direction == -1){
+			indicator_direction = aim_speed;
 		}
 		image_angle = image_angle + indicator_direction;
 		show_debug_message("image angle = " + string(image_angle));

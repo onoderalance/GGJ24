@@ -7,6 +7,11 @@ aiming = false;
 
 angle_towards_target = 0;
 
+//how wide the aming is. beer = 30, wine = 45, syringe = 60?
+angle_range = 45;
+//how fast aiming is. beer = 1, wine = 1, syringe = 1.5?
+aim_speed = 1;
+
 target_set = false;
 
 indicator_direction = 1;
