@@ -52,4 +52,9 @@ if(cust_instance != noone)
 		draw_sprite(spr_ingredient_seltzer, 0, _cust_x+30, _cust_y+30);
 		draw_sprite(spr_ingredient_juice, 0, _cust_x+50, _cust_y+30);
 	}
+	if(cust_instance.drink_pref == "lowball") // seltzer + whisky
+	{
+		draw_sprite(spr_ingredient_seltzer, 0, _cust_x+30, _cust_y+30);
+		draw_sprite(spr_ingredient_whisky, 0, _cust_x+50, _cust_y+30);
+	}
 }
