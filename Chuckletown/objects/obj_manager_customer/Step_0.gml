@@ -1,5 +1,10 @@
 //if the table list has a free table, spawn a customer
 
+show_debug_message("NUM CUST");
+show_debug_message(total_num_customers);
+show_debug_message(num_customers_to_create);
+show_debug_message(num_customers_max);
+
 //create new customers if there is less than the maximum or number to be created
 if(num_customers_to_create > 0 && total_num_customers < num_customers_max)
 {
