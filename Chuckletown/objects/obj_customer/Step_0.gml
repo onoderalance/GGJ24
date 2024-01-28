@@ -8,7 +8,7 @@ switch(state)
 		{	
 			//set the table to what it is
 			cust_table = target_table;
-			alarm[2] = mood_change_time;
+			alarm[2] = mood_decrease_time;
 			//generate random mood
 			var _mood_odds = irandom_range(0,9);
 			switch(_mood_odds)

@@ -41,8 +41,9 @@ mood_max_val = 2;
 mood_min_val = -1;
 mood_increasing = false;
 //how often to change mood
-mood_change_time = 500;
-mood_change_time_martini = 250;
+mood_decrease_time = 600;
+mood_increase_time = 400;
+mood_increase_time_martini = 250;
 
 current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
 

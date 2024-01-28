@@ -11,7 +11,9 @@ if (mood_increasing && mood < mood_max_val) {
 }
 
 if (current_cup == "martini" && mood_increasing){
-	alarm[2] = mood_change_time_martini;
+	alarm[2] = mood_increase_time_martini;
+} else if (mood_increasing) {
+	alarm[2] = mood_increase_time;
 } else {
-	alarm[2] = mood_change_time;
+	alarm[2] = mood_decrease_time;
 }
