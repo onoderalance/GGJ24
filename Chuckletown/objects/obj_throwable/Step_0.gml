@@ -15,7 +15,15 @@ if(_inst != noone)
 	if(_inst == m_throw_target)
 	{
 		//set values of the customer to satiated properly
-		m_throw_target.state = CUSTOMER_STATE.SATIATED;
+		if (_inst.drink_pref == m_name) {
+			show_debug_message("CORRECT " + m_name + " " + m_cup);
+			_inst.current_drink = m_name;
+			_inst.current_cup = m_cup;
+			_inst.alarm[1] = _inst.drink_time;
+			m_throw_target.state = CUSTOMER_STATE.SATIATED;
+		} else {
+			_inst.mood--;
+		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
 		//KILL YOURSELF
 		instance_destroy();
