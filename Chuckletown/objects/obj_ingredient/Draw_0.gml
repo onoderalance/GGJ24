@@ -3,6 +3,9 @@
 
 draw_self();
 
+draw_set_font(fnt_box);
+draw_text_transformed(x-(string_length(m_name)*0.8), y+16,m_name, 0.5, 0.5, 0);
+
 switch (m_name) {
 	case "vodka":
 		draw_sprite(spr_ingredient_vodka, 0, x, y);

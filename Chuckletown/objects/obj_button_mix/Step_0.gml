@@ -53,6 +53,15 @@ if (mouse_check_button_pressed(mb_left)) {
 				newDrink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
+			case 6:
+				//create a lowball
+				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
+				newDrink.m_name = "lowball";
+				m_new_drink = "lowball";
+				newDrink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_has_drink = true;
+				break;
 			case 5:
 				//create a boom box
 				var newDrink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);

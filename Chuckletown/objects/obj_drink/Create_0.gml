@@ -32,4 +32,6 @@ switch (m_name) {
 	case ("san penguino"):
 		image_blend = c_red;
 		break;
+	case ("lowball"):
+		image_blend = c_silver;
 }
