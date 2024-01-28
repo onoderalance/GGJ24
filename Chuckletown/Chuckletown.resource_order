@@ -80,6 +80,7 @@
     {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
     {"name":"obj_collision","order":20,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"ob","order":28,"path":"objects/ob/ob.yy",},
+    {"name":"obj_title","order":31,"path":"objects/obj_title/obj_title.yy",},
     {"name":"rm_connor","order":1,"path":"rooms/rm_connor/rm_connor.yy",},
     {"name":"obj_drums","order":29,"path":"objects/obj_drums/obj_drums.yy",},
     {"name":"spr_ingredient_seltzer","order":10,"path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},

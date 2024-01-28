@@ -102,6 +102,7 @@
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"ob","path":"objects/ob/ob.yy",},},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_connor","path":"rooms/rm_connor/rm_connor.yy",},},
     {"id":{"name":"obj_drums","path":"objects/obj_drums/obj_drums.yy",},},
     {"id":{"name":"spr_ingredient_seltzer","path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},},
