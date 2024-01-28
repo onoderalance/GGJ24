@@ -9,5 +9,6 @@ show_debug_message(global.time_sec);
 //increment timer
 global.time_tick++;
 
+//toggle debug
 if(keyboard_check_pressed(vk_escape))
 	global.debug = !global.debug;

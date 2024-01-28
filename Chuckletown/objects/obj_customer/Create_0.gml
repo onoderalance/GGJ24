@@ -11,11 +11,16 @@ target_table = noone;
 
 //m_path = path_add();
 
+//tracks if this is the currently targeted customer
 target = false;
 
+//customer parameters
 cust_name = "";
 drink_pref = "";
 mood = 1;
+
+//tracks the table the custoemr is assigned to
+cust_table = noone;
 
 //how much it increases per customer
 inc_amount = 10;

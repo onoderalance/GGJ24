@@ -1,6 +1,6 @@
 locked = false;
 
-throw_target = noone;
+m_throw_target = noone;
 
 direction = 0;
 

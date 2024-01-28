@@ -1,15 +1,15 @@
 if (instance_exists(obj_customer) && obj_bartender.m_has_drink) { //FREE
-	origin = obj_bartender
-		var x_orig = origin.x;
-		var y_orig = origin.y;
+	var _origin = obj_bartender
+	var x_orig = _origin.x;
+	var y_orig = _origin.y;
 	if (obj_throwable.locked == false) {
 		var x_dest = instance_nearest(mouse_x, mouse_y, obj_customer).x;
 		var y_dest = instance_nearest(mouse_x, mouse_y, obj_customer).y;
 		//var x_dest = target_x;
 		//var y_dest = target_y;
 	} else {
-		var x_dest = chosen_customer_x;
-		var y_dest = chosen_customer_y;
+		var x_dest = obj_aim.target_customer.x;
+		var y_dest = obj_aim.target_customer.y;
 	}
 
 	x = x_orig;
