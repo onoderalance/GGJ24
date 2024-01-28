@@ -41,7 +41,6 @@
     {"name":"spr_ui_time_tracker","order":2,"path":"sprites/spr_ui_time_tracker/spr_ui_time_tracker.yy",},
     {"name":"obj_customer_display","order":19,"path":"objects/obj_customer_display/obj_customer_display.yy",},
     {"name":"obj_comedian","order":6,"path":"objects/obj_comedian/obj_comedian.yy",},
-    {"name":"snd_aim","order":12,"path":"sounds/snd_aim/snd_aim.yy",},
     {"name":"snd_mix","order":1,"path":"sounds/snd_mix/snd_mix.yy",},
     {"name":"snd_ice","order":7,"path":"sounds/snd_ice/snd_ice.yy",},
     {"name":"obj_manager_game","order":1,"path":"objects/obj_manager_game/obj_manager_game.yy",},
