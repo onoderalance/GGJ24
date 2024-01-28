@@ -11,3 +11,4 @@ particle_distance = irandom_range(15,35);
 //ratio of y speed to x speed
 particle_angle = random_range(0.5,1.5);
 particle_alpha = 1;
+particle_rotation = random_range(-20,20);
