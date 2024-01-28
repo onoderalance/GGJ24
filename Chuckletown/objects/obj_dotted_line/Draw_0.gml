@@ -1,4 +1,4 @@
-if (instance_exists(obj_customer)) {
+if (instance_exists(obj_customer) && obj_bartender.m_has_drink) {
 	origin = obj_bartender
 		var x_orig = origin.x;
 		var y_orig = origin.y;
