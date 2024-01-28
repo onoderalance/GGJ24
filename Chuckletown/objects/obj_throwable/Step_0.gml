@@ -19,6 +19,7 @@ if(_inst != noone)
 			show_debug_message("CORRECT " + m_name + " " + m_cup);
 			_inst.current_drink = m_name;
 			_inst.current_cup = m_cup;
+			_inst.alarm[1] = _inst.drink_time;
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
 		} else {
 			_inst.mood--;

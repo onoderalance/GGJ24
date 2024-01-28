@@ -39,6 +39,7 @@ if(state == CUSTOMER_STATE.SATIATED)
 			drinkColor = c_orange;
 			break;
 	}
+	draw_sprite(spr_table,0,x-16,y);
 	//draw the correct glass
 	switch (current_cup) {
 		case ("beer"):
