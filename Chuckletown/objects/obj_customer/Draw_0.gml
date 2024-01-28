@@ -42,14 +42,14 @@ if(state == CUSTOMER_STATE.SATIATED)
 	//draw the correct glass
 	switch (current_cup) {
 		case ("beer"):
-			draw_sprite_ext(spr_glass_beer,0,x,y, 1, 1, 0, drinkColor, 1);
+			draw_sprite_ext(spr_glass_beer,0,x-16,y-8, 1, 1, 0, drinkColor, 1);
 			//show_debug_message("PIVO");
 			break;
 		case ("martini"):
-			draw_sprite_ext(spr_glass_martini,0,x,y, 1, 1, 0, drinkColor, 1);
+			draw_sprite_ext(spr_glass_martini,0,x-16,y-8, 1, 1, 0, drinkColor, 1);
 			break;
 		case ("syringe"):
-			draw_sprite_ext(spr_glass_syringe,0,x,y, 1, 1, 0, drinkColor, 1);
+			draw_sprite_ext(spr_glass_syringe,0,x-16,y-8, 1, 1, 0, drinkColor, 1);
 			break;
 	}
 	draw_set_color(c_white);
