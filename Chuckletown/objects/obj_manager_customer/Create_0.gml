@@ -11,6 +11,11 @@ function table_available()
 	return false;
 }
 
+//list of potential names
+names = ["Zoombini","Dave","Barbara","Evan","Zoe","Lance","Avi",
+		"Connor","Aria","Henry","Chee","Scoobie","Mia","Dua Lipa",
+		"Link", "Cameron","Ryuji","Ann","Georgia","Lizzie","Cindy"];
+
 //tracks total number of customers
 total_num_customers = 0;
 

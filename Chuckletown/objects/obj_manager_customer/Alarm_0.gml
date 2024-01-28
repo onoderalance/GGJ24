@@ -14,7 +14,8 @@ var _new_customer = instance_create_layer(initial_x-16, initial_y-16, "Instances
 _new_customer.target_table = _chosen_table;
 
 //add name for customer
-_new_customer.cust_name = "Zoombini";
+//_new_customer.cust_name = "Zoombini";
+_new_customer.cust_name = names[random(array_length(names))];
 
 //start motion planning movement for new customer
 with(_new_customer)
