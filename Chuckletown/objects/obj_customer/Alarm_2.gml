@@ -17,3 +17,5 @@ if (current_cup == "martini" && mood_increasing){
 } else {
 	alarm[2] = mood_decrease_time;
 }
+
+particle.mood = mood;

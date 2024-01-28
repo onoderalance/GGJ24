@@ -30,6 +30,7 @@ switch(state)
 					mood = -1; //mad af
 					break;
 			}
+			particle = instance_create_layer(x,y,"instances",obj_particle_generator);
 			state = CUSTOMER_STATE.WANTS_DRINK;
 			
 		}
