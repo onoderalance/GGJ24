@@ -16,6 +16,7 @@
     {"name":"inst_2882D563","path":"rooms/rm_henry/rm_henry.yy",},
     {"name":"inst_3A612AF1","path":"rooms/rm_henry/rm_henry.yy",},
     {"name":"inst_795A6B2C","path":"rooms/rm_henry/rm_henry.yy",},
+    {"name":"inst_795A6B2C","path":"rooms/rm_henry/rm_henry.yy",},
   ],
   "isDnd": false,
   "layers": [
