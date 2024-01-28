@@ -42,6 +42,7 @@
     {"name":"spr_ingredient_juice","order":9,"path":"sprites/spr_ingredient_juice/spr_ingredient_juice.yy",},
     {"name":"obj_bartender","order":7,"path":"objects/obj_bartender/obj_bartender.yy",},
     {"name":"obj_ui_time","order":1,"path":"objects/obj_ui_time/obj_ui_time.yy",},
+    {"name":"obj_writer","order":26,"path":"objects/obj_writer/obj_writer.yy",},
     {"name":"spr_collision","order":22,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"spr_dotted_line","order":19,"path":"sprites/spr_dotted_line/spr_dotted_line.yy",},
     {"name":"spr_button_mix","order":15,"path":"sprites/spr_button_mix/spr_button_mix.yy",},

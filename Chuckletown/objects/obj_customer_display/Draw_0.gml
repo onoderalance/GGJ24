@@ -7,17 +7,17 @@ if cust_instance != noone
 {
 	draw_self(); // a wild box was summoned!
 	draw_set_font(fnt_box);
-	draw_text(x+5, y+2,cust_instance.cust_name);
+	draw_text(x+10, y+7,cust_instance.cust_name);
 	
 	// this is the mood vibe
 	if cust_instance.mood == -1 // angry
-		draw_sprite(spr_mood, 1, x+5, y+30);
+		draw_sprite(spr_mood, 1, x+10, y+30);
 	if cust_instance.mood == 0 // neutral
-		draw_sprite(spr_mood, 2, x+5, y+30);
+		draw_sprite(spr_mood, 2, x+10, y+30);
 	if cust_instance.mood == 1 // mildly pleased
-		draw_sprite(spr_mood, 3, x+5, y+30);
+		draw_sprite(spr_mood, 3, x+10, y+30);
 	if cust_instance.mood == 2 // omg comedy genius
-		draw_sprite(spr_mood, 4, x+5, y+30);
+		draw_sprite(spr_mood, 4, x+10, y+30);
 	
 	// this is the drink pref
 	if cust_instance.drink_pref == "beer" // vodka + whisky
