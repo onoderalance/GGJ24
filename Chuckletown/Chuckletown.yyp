@@ -61,6 +61,7 @@
     {"id":{"name":"spr_ingredient_juice","path":"sprites/spr_ingredient_juice/spr_ingredient_juice.yy",},},
     {"id":{"name":"obj_bartender","path":"objects/obj_bartender/obj_bartender.yy",},},
     {"id":{"name":"obj_ui_time","path":"objects/obj_ui_time/obj_ui_time.yy",},},
+    {"id":{"name":"obj_writer","path":"objects/obj_writer/obj_writer.yy",},},
     {"id":{"name":"tiles_bar","path":"tilesets/tiles_bar/tiles_bar.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_dotted_line","path":"sprites/spr_dotted_line/spr_dotted_line.yy",},},
