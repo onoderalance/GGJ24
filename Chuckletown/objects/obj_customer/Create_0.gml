@@ -45,6 +45,8 @@ mood_decrease_time = 600;
 mood_increase_time = 400;
 mood_increase_time_martini = 250;
 
+particle = noone;
+
 current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
 
 customer_sprite_id = choose("A", "B", "C", "D");

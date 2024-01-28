@@ -54,6 +54,7 @@ switch(state)
 					mood = -1; //mad af
 					break;
 			}
+			particle = instance_create_layer(x,y,"instances",obj_particle_generator);
 			state = CUSTOMER_STATE.WANTS_DRINK;
 			
 		}
@@ -63,6 +64,8 @@ switch(state)
 		
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:
+		//update particle
+		particle.mood = mood+1;
 		//mood will deecrease
 		mood_increasing = false;
 		//if no drink preference, give it one
@@ -74,6 +77,8 @@ switch(state)
 		
 		break;
 	case CUSTOMER_STATE.SATIATED:
+		//update particle
+		particle.mood = mood+1;
 		//mood will increase
 		mood_increasing = true;
 		//ensure cup n stuff is drawn atop the table
