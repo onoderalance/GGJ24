@@ -22,11 +22,25 @@ switch(state)
 			alarm[0] = inc_rate;
 			count_inc_rate = inc_rate;
 		}
+		if (mood > -mood_min_val) {
+			mood = mood - 0.005;
+		}
+		current_state = check_current_state();
+		
 		break;
 	case CUSTOMER_STATE.SATIATED:
 		//ensure cup n stuff is drawn atop the table
 		depth = -1;
+		
+		if (mood < mood_max_val) {
+			mood = mood + 0.005;
+		}
+		current_state = check_current_state();
+		
 		break;
 	case CUSTOMER_STATE.HECKLER:
 		break;
 }
+
+//increase of decrease laugh meter based on mood
+global.laughter += mood;

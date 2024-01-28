@@ -17,7 +17,6 @@ target = false;
 //customer parameters
 cust_name = "";
 drink_pref = "";
-mood = 1;
 drink_time = 300;
 
 //tracks the table the custoemr is assigned to
@@ -35,3 +34,23 @@ drink_array = ["fat twink", "allen wrench", "lowball","beer","san penguino","boo
 //an instance of obj_drink that is on the table
 currrent_drink = "";
 current_cup = "";
+
+//set mood to 0 by default and have max and min values
+mood = 0;
+mood_max_val = 4;
+mood_min_val = -3;
+
+current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
+
+//smiley face logic
+function check_current_state() {
+	if (mood >= 3) {
+		current_state = "happy";
+	} else if (mood >= 1) {
+		current_state = "satisfied";
+	} else if (mood >= -1) {
+		current_state = "neutral";
+	} else {
+		current_state = "unhappy"
+	}
+}
