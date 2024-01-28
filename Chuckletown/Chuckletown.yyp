@@ -104,6 +104,7 @@
     {"id":{"name":"rm_connor","path":"rooms/rm_connor/rm_connor.yy",},},
     {"id":{"name":"obj_drums","path":"objects/obj_drums/obj_drums.yy",},},
     {"id":{"name":"spr_ingredient_seltzer","path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},},
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"spr_customer_display","path":"sprites/spr_customer_display/spr_customer_display.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
     {"id":{"name":"rm_aria","path":"rooms/rm_aria/rm_aria.yy",},},
