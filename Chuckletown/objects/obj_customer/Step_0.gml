@@ -51,6 +51,7 @@ switch(state)
 		//ensure cup n stuff is drawn atop the table
 		depth = -1;
 		
+		drink_pref = "";
 		current_state = check_current_state();
 		
 		break;
