@@ -8,10 +8,20 @@ switch(state)
 		{	
 			//set the table to what it is
 			cust_table = target_table;
-			state = CUSTOMER_STATE.WANTS_DRINK;
+			alarm[2] = mood_change_time;
+			if (random(5) > 4) {
+				state = CUSTOMER_STATE.WANTS_DRINK;
+			} else {
+				current_drink = drink_array[irandom(5)];
+				current_cup = "beer";
+				state = CUSTOMER_STATE.SATIATED;
+			}
 		}
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:
+		//mood will deecrease
+		mood_increasing = false;
+		//if no drink preference, give it one
 		if (drink_pref == "") {
 			drink_pref = drink_array[irandom(5)];
 			show_debug_message("I want " + drink_pref);
@@ -22,19 +32,15 @@ switch(state)
 			alarm[0] = inc_rate;
 			count_inc_rate = inc_rate;
 		}
-		if (mood > -mood_min_val) {
-			mood = mood - 0.005;
-		}
 		current_state = check_current_state();
 		
 		break;
 	case CUSTOMER_STATE.SATIATED:
+		//mood will increase
+		mood_increasing = true;
 		//ensure cup n stuff is drawn atop the table
 		depth = -1;
 		
-		if (mood < mood_max_val) {
-			mood = mood + 0.005;
-		}
 		current_state = check_current_state();
 		
 		break;
@@ -42,5 +48,4 @@ switch(state)
 		break;
 }
 
-//increase of decrease laugh meter based on mood
-global.laughter += mood;
+//global.laughter += mood * inc_amount;
