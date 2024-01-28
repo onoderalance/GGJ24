@@ -1,5 +1,7 @@
 x = mouse_x;
-y = mouse_y;
+y = mouse_y
+
+depth = -10000;
 
 with (obj_customer) {
 	target = false;
