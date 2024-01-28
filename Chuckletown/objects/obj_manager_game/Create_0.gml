@@ -18,7 +18,7 @@ global.time_tick = 0;
 //current time in second
 global.time_sec = 0;
 
-//game state, 0 is intro, 1 and 2 are sets, 3 is victory?
+//game state, 0 is intro, 1 and 2 are sets, 3 is victory, 4 is defeat
 global.game_state = 0;
 
 //laugh meter percent 0-100, starts at 50
@@ -30,6 +30,10 @@ global.num_tables = 0;
 //variables for intro curtain
 introdraw_tick = 0;
 introdraw_offset = 0;
+
+//variables for endgame curtain
+enddraw_tick = 0;
+enddraw_offset = 0;
 
 depth = -1000;
 
