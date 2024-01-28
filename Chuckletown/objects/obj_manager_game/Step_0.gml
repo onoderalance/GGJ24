@@ -4,7 +4,7 @@
 //calculates time in seconds
 global.time_sec = global.time_tick/FRAMES_SEC;
 
-show_debug_message(global.time_sec);
+//show_debug_message(global.time_sec);
 
 //increment timer
 global.time_tick++;

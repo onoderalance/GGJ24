@@ -15,6 +15,7 @@ if(target) {
 //if satiated, draw cup on table
 if(state == CUSTOMER_STATE.SATIATED)
 {
+	//show_debug_message("I AM DRINKING!!");
 	var drinkColor = c_white;
 	//choose color
 	switch (current_drink) {
@@ -34,20 +35,21 @@ if(state == CUSTOMER_STATE.SATIATED)
 			drinkColor = c_silver;
 			break;
 		case ("allen wrench"):
+			//show_debug_message("proc");
 			drinkColor = c_orange;
 			break;
 	}
-	draw_set_color(drinkColor);
 	//draw the correct glass
 	switch (current_cup) {
 		case ("beer"):
-			draw_sprite(spr_glass_beer,x,y,image_index);
+			draw_sprite_ext(spr_glass_beer,0,x,y, 1, 1, 0, drinkColor, 1);
+			//show_debug_message("PIVO");
 			break;
 		case ("martini"):
-			draw_sprite(spr_glass_martini,x,y,image_index);
+			draw_sprite_ext(spr_glass_martini,0,x,y, 1, 1, 0, drinkColor, 1);
 			break;
 		case ("syringe"):
-			draw_sprite(spr_glass_syringe,x,y,image_index);
+			draw_sprite_ext(spr_glass_syringe,0,x,y, 1, 1, 0, drinkColor, 1);
 			break;
 	}
 	draw_set_color(c_white);

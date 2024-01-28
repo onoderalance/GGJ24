@@ -16,7 +16,7 @@ if(_inst != noone)
 	{
 		//set values of the customer to satiated properly
 		if (_inst.drink_pref == m_name) {
-			show_debug_message("CORRECT");
+			show_debug_message("CORRECT " + m_name + " " + m_cup);
 			_inst.current_drink = m_name;
 			_inst.current_cup = m_cup;
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
