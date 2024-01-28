@@ -1,3 +1,4 @@
+
 var myID;
 //for each instance of customer
 for (myID = 0; myID <obj_manager_customer.total_num_customers; myID++){
@@ -10,3 +11,5 @@ for (myID = 0; myID <obj_manager_customer.total_num_customers; myID++){
 		break;
 	}	
 }
+
+//global.laughter = global.laughter + (mood * inc_amount);
