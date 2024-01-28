@@ -62,7 +62,9 @@
     {"name":"spr_ingredient_vodka","order":7,"path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},
     {"name":"spr_crosshair","order":3,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
     {"name":"obj_collision","order":20,"path":"objects/obj_collision/obj_collision.yy",},
+    {"name":"ob","order":28,"path":"objects/ob/ob.yy",},
     {"name":"rm_connor","order":1,"path":"rooms/rm_connor/rm_connor.yy",},
+    {"name":"obj_drums","order":29,"path":"objects/obj_drums/obj_drums.yy",},
     {"name":"spr_ingredient_seltzer","order":10,"path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},
     {"name":"spr_customer_display","order":18,"path":"sprites/spr_customer_display/spr_customer_display.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
@@ -70,6 +72,7 @@
     {"name":"spr_aim","order":23,"path":"sprites/spr_aim/spr_aim.yy",},
     {"name":"spr_button_background","order":21,"path":"sprites/spr_button_background/spr_button_background.yy",},
     {"name":"obj_mixer_label","order":22,"path":"objects/obj_mixer_label/obj_mixer_label.yy",},
+    {"name":"spr_drums","order":28,"path":"sprites/spr_drums/spr_drums.yy",},
     {"name":"obj_crosshair","order":9,"path":"objects/obj_crosshair/obj_crosshair.yy",},
   ],
 }
