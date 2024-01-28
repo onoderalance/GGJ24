@@ -62,6 +62,7 @@
     {"id":{"name":"obj_customer_display","path":"objects/obj_customer_display/obj_customer_display.yy",},},
     {"id":{"name":"obj_comedian","path":"objects/obj_comedian/obj_comedian.yy",},},
     {"id":{"name":"snd_mus_neutogood","path":"sounds/snd_mus_neutogood/snd_mus_neutogood.yy",},},
+    {"id":{"name":"snd_aim","path":"sounds/snd_aim/snd_aim.yy",},},
     {"id":{"name":"snd_mix","path":"sounds/snd_mix/snd_mix.yy",},},
     {"id":{"name":"snd_ice","path":"sounds/snd_ice/snd_ice.yy",},},
     {"id":{"name":"obj_manager_game","path":"objects/obj_manager_game/obj_manager_game.yy",},},
