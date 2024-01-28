@@ -33,6 +33,10 @@ switch(state)
 			state = CUSTOMER_STATE.WANTS_DRINK;
 			
 		}
+		
+		//SET ANNIMATION:
+		sprite_index = choose(spr_customerA_idle, spr_customerB_idle, spr_customerC_idle, spr_customerD_idle);
+		
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:
 		//mood will deecrease
