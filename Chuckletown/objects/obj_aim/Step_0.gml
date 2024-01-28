@@ -16,7 +16,7 @@ if (obj_bartender.m_has_drink) {
 			break;
 		case ("syringe"):
 			angle_range = 60;
-			aim_speed = 1.5;
+			aim_speed = 2.5;
 			break;
 	}
 	//indicator_direction = aim_speed;

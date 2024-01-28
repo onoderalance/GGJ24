@@ -20,6 +20,9 @@ if(_inst != noone)
 			_inst.current_drink = m_name;
 			_inst.current_cup = m_cup;
 			_inst.alarm[1] = _inst.drink_time;
+			if(_inst.current_cup == "syringe") {
+				_inst.mood = 2;
+			}
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
 		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
