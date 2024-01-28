@@ -15,6 +15,11 @@ if(target) {
 //if satiated, draw cup on table
 if(state == CUSTOMER_STATE.SATIATED)
 {
+	
+	switch (current_drink) {
+		case ("fat twink"):
+			break;
+	}
 	//TODO- DRAW CUP ON TABLE - SEE CODE IN THROWABLE FOR PLACE TO RETRIEVE DRINK HIT WITH
 }
 	

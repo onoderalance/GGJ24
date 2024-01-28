@@ -18,6 +18,7 @@ target = false;
 cust_name = "";
 drink_pref = "";
 mood = 1;
+drink_time = 300;
 
 //tracks the table the custoemr is assigned to
 cust_table = noone;
@@ -32,4 +33,5 @@ count_inc_rate = inc_rate;
 drink_array = ["fat twink", "allen wrench", "lowball","beer","san penguino","boombox"];
 
 //an instance of obj_drink that is on the table
-currrent_drink = noone;
+currrent_drink = "";
+current_cup = "";

@@ -21,6 +21,7 @@ switch(state)
 		}
 		break;
 	case CUSTOMER_STATE.SATIATED:
+		alarm[1] = drink_time;
 		break;
 	case CUSTOMER_STATE.HECKLER:
 		break;
