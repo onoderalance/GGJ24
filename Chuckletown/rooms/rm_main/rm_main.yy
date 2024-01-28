@@ -36,6 +36,9 @@
     {"name":"inst_1F89D0C2","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_37EEBD6E","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_3B0EDCD6","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_43F25614","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_6B87E120","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_5ED3A381","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd": false,
   "layers": [
