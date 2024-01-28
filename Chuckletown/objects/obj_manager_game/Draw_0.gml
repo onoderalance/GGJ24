@@ -17,6 +17,20 @@ if(global.game_state == 0)
 	introdraw_offset += room_height/INTRO_LENGTH;
 	//show_debug_message("BABBABA");
 }
+if(global.game_state == 2)
+{
+	if(transdraw_tick < INTRO_LENGTH)
+	{
+		show_debug_message("HELP ME");
+		show_debug_message(transdraw_offset);
+		//we hit maximum length, hallelujah
+		draw_set_halign(fa_center);
+		draw_text_transformed(transdraw_offset, room_height/2, "SECOND SET!", 1, 1, 0);
+	}
+	transdraw_tick++;
+	transdraw_offset += (room_width+64)/INTRO_LENGTH;
+	
+}
 if(global.game_state == 3)
 {
 	if(enddraw_tick >= INTRO_LENGTH)

@@ -31,6 +31,10 @@ global.num_tables = 0;
 introdraw_tick = 0;
 introdraw_offset = 0;
 
+//variables for transition
+transdraw_tick = 0;
+transdraw_offset = 0;
+
 //variables for endgame curtain
 enddraw_tick = 0;
 enddraw_offset = 0;
