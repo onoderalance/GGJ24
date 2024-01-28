@@ -3,4 +3,3 @@
 
 m_num_selected = 0;
 m_new_drink = "";
-m_drink = noone;
