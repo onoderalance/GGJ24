@@ -17,7 +17,7 @@ target = false;
 //customer parameters
 cust_name = "";
 drink_pref = "";
-drink_time = 600;
+drink_time = 800;
 
 //tracks the table the custoemr is assigned to
 cust_table = noone;
