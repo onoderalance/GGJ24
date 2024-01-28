@@ -10,4 +10,8 @@ if (mood_increasing && mood < mood_max_val) {
 	mood--;
 }
 
-alarm[2] = mood_change_time;
+if (current_cup == "martini" && mood_increasing){
+	alarm[2] = mood_change_time_martini;
+} else {
+	alarm[2] = mood_change_time;
+}
