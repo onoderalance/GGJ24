@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_customer",
-    "path": "sprites/spr_customer/spr_customer.yy",
+    "name": "spr_customerA_idle",
+    "path": "sprites/spr_customerA_idle/spr_customerA_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
