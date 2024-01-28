@@ -20,7 +20,7 @@ if (aiming = true) {
 	show_debug_message("image angle = " + string(image_angle));
 	
 	
-	if mouse_check_button_pressed(mb_left) {
+	if mouse_check_button_pressed(mb_left) { //THROW DRINK
 		var final_throw_angle = image_angle;
 		show_debug_message("final throw angle = " + string(final_throw_angle));
 		with (instance_create_layer(obj_bartender.x, obj_bartender.y, "Instances", obj_throwable))
@@ -31,8 +31,9 @@ if (aiming = true) {
 			show_debug_message("THROW!!!!");
 			show_debug_message("direction = " + string(direction));
 		}
-		aiming = false;
-		obj_throwable.locked = false;
+		alarm[2] = 7;
+		//aiming = false;
+		//obj_throwable.locked = false;
 	}
 	
 	
