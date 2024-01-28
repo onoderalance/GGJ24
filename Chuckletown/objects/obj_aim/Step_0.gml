@@ -3,9 +3,28 @@ visible = aiming;
 
 //logic if bartender has a drink
 if (obj_bartender.m_has_drink) {
+	
+	//set aim range and speed based on cup type
+	switch (obj_bartender.m_cup){
+		case ("beer"):
+			angle_range = 30;
+			aim_speed = 1;
+			break;
+		case ("martini"):
+			angle_range = 45;
+			aim_speed = 1;
+			break;
+		case ("syringe"):
+			angle_range = 60;
+			aim_speed = 1.5;
+			break;
+	}
+	//indicator_direction = aim_speed;
+	
 	//checks if we are locked on and aiming
 	if(instance_exists(obj_customer) && target_set = false && obj_throwable.locked) {
 		angle_towards_target = point_direction(obj_bartender.x, obj_bartender.y, target_customer.x, target_customer.y);
+		indicator_direction = aim_speed;
 		target_set = true;
 	}
 
@@ -16,9 +35,9 @@ if (obj_bartender.m_has_drink) {
 
 	if (aiming = true) {
 		visible = true;
-		if (image_angle > ((angle_towards_target + angle_range)%360) && indicator_direction == 1) {
+		if (image_angle > ((angle_towards_target + angle_range)%360) && indicator_direction > 0) {
 			indicator_direction = -aim_speed;
-		} else if (image_angle < ((angle_towards_target - angle_range)%360) && indicator_direction == -1){
+		} else if (image_angle < ((angle_towards_target - angle_range)%360) && indicator_direction < 0){
 			indicator_direction = aim_speed;
 		}
 		image_angle = image_angle + indicator_direction;
