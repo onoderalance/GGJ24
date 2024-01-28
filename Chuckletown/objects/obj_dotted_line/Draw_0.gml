@@ -18,19 +18,17 @@ if (instance_exists(obj_customer) && obj_bartender.m_has_drink) { //FREE
 	var _angle = point_direction(x_orig, y_orig, x_dest, y_dest);
 	var _width = sprite_width;
 
-	if (obj_bartender.m_has_drink) {
-		for (var i = 0; distance_to_point(x_dest, y_dest) > (i * _width); i++) {
-			draw_sprite_ext(sprite_index, image_index, 
-			x + lengthdir_x(i * _width, _angle), 
-			y + lengthdir_y(i * _width, _angle),
-			1, 1, _angle, image_blend, image_alpha);
-		}
-		if (mouse_check_button(mb_left)) { //LOCKED
-			obj_throwable.locked = true;
-			chosen_customer_x = instance_nearest(mouse_x, mouse_y, obj_customer).x;
-			chosen_customer_y = instance_nearest(mouse_x, mouse_y, obj_customer).y;
-		}
+	for (var i = 0; distance_to_point(x_dest, y_dest) > (i * _width); i++) {
+		draw_sprite_ext(sprite_index, image_index, 
+		x + lengthdir_x(i * _width, _angle), 
+		y + lengthdir_y(i * _width, _angle),
+		1, 1, _angle, image_blend, image_alpha);
 	}
+	//if (mouse_check_button(mb_left)) { //LOCKED
+	//	obj_throwable.locked = true;
+	//	chosen_customer_x = instance_nearest(mouse_x, mouse_y, obj_customer).x;
+	//	chosen_customer_y = instance_nearest(mouse_x, mouse_y, obj_customer).y;
+	//	}
 	
 	show_debug_message("drew dotted line");
 }
