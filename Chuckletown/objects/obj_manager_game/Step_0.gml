@@ -10,8 +10,8 @@ global.time_sec = global.time_tick/FRAMES_SEC;
 global.time_tick++;
 
 //toggle debug
-if(keyboard_check_pressed(vk_escape))
-	global.debug = !global.debug;
+//if(keyboard_check_pressed(vk_escape))
+//	global.debug = !global.debug;
 	
 switch(global.game_state)
 {
