@@ -10,6 +10,7 @@ show_debug_message(angle_towards_target);
 image_angle = (image_angle %360);
 
 if (aiming = true) {
+	visible = true;
 	if (image_angle > ((angle_towards_target + 45)%360) && indicator_direction == 1) {
 		indicator_direction = -1;
 	} else if (image_angle < ((angle_towards_target - 45)%360) && indicator_direction == -1){
@@ -41,6 +42,8 @@ if (aiming = true) {
 		//show_debug_message("changed image angle");
 		aiming = true;
 	}
+} else if (aiming = false) {
+	visible = false;
 }
 
 //throw
