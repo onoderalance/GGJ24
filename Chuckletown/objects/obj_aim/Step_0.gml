@@ -47,6 +47,7 @@ if (obj_bartender.m_has_drink) {
 		if (mouse_check_button_pressed(mb_left)) { //THROW DRINK
 			var final_throw_angle = image_angle;
 			show_debug_message("final throw angle = " + string(final_throw_angle));
+			audio_play_sound(snd_throw, 1, false);
 			with (instance_create_layer(obj_bartender.x, obj_bartender.y, "Instances", obj_throwable))
 			{
 				m_throw_target = obj_aim.target_customer;

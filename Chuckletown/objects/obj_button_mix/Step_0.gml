@@ -20,6 +20,8 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (instance_position(mouse_x, mouse_y, obj_button_mix) && (m_num_selected == 2) && (!obj_bartender.m_has_drink)) {
 		//vodka, whisky, seltzer, juice
 		
+		audio_play_sound(snd_mix, 1, false);
+		
 		//convert array to a number using binary, e.g. vokda and whisky is [1,1,0,0] = 12
 		var ingredients_code = (8*ing_arr[0]) + (4*ing_arr[1]) + (2*ing_arr[2]) + (1*ing_arr[3]);
 		

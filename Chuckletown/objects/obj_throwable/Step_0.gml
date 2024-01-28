@@ -22,10 +22,13 @@ if(_inst != noone)
 			_inst.alarm[1] = _inst.drink_time;
 			_inst.alarm[2] = _inst.mood_increase_time;
 			if(_inst.current_cup == "syringe") {
+				audio_play_sound(snd_pain, 1, false);
 				_inst.mood = 2;
 			} else if (_inst.current_cup == "martini") {
+				audio_play_sound(snd_ice, 1, false,1,1.3);
 				_inst.alarm[2] = _inst.mood_increase_time_martini;
 			} else {
+				audio_play_sound(snd_ice, 1, false,1,1.3);
 				_inst.alarm[2] = _inst.mood_increase_time;
 			}
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;

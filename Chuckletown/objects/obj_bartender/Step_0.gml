@@ -17,6 +17,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on an instance of an ingredient
 	var _ingredient = instance_position(mouse_x, mouse_y, obj_button_ingredient);
 	if (_ingredient != noone) {
+		audio_play_sound(snd_click, 1, false,1,0.5);
 		show_debug_message(_ingredient.m_name);
 		//add this ingredient to the ingredient list
 		//ds_list_add(m_ingredient_list, _ingredient.m_name);
@@ -40,6 +41,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	
 	var _cup = instance_position(mouse_x, mouse_y, obj_button_cup);
 	if (_cup != noone) {
+		audio_play_sound(snd_click, 1,false,1,0.5,0.8);
 		m_cup = _cup.m_name;
 	}
 	
