@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_comedian",
+    "path": "sprites/spr_comedian/spr_comedian.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
