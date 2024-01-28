@@ -4,6 +4,7 @@
 //DEFINE MACROS
 #macro SET_LENGTH 150 //length of one set in seconds
 #macro FRAMES_SEC 60 //frames in one second
+#macro INTRO_LENGTH 90 //frames in the intro sequence
 
 //DEFINE ENUMS
 
@@ -16,16 +17,20 @@ global.debug = false;
 global.time_tick = 0;
 //current time in second
 global.time_sec = 0;
-//laugh meter percent 0-100
-global.laughter = 100;
+
+//game state, 0 is intro, 1 and 2 are sets, 3 is victory?
+global.game_state = 0;
+
+//laugh meter percent 0-100, starts at 50
+global.laughter = 50;
 
 //tracks number of tables generated for tracking id
 global.num_tables = 0;
 
-//tracks current comedy set (0 or 1)
-global.set = 0;
+//variables for intro curtain
+introdraw_tick = 0;
+introdraw_offset = 0;
 
-
-
+depth = -1000;
 
 

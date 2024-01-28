@@ -35,4 +35,6 @@ _chosen_table.occupied = true;
 
 //increase total number of customers
 total_num_customers++;
+//decrement customers to be created
+num_customers_to_create--;
 //show_debug_message(total_num_customers);

@@ -14,6 +14,12 @@ function table_available()
 //tracks total number of customers
 total_num_customers = 0;
 
+//tracks maximum number of customers
+num_customers_max = 0;
+
+//tracks number of customers to be created
+num_customers_to_create = 0;
+
 //stores the mp grid for customer movement
 //generate grid of the room
 global.grid = mp_grid_create(0, 0, room_width / 16, room_height / 16, 16, 16);
@@ -30,8 +36,9 @@ initial_y = room_height;
 table_list = ds_list_create();
 
 //frequency of customeer spawns
-customer_spawn_rate = 60;
-customer_spawn_tick = customer_spawn_rate;
+//customer_spawn_rate = 60;
+//customer_spawn_tick = customer_spawn_rate;
+customer_spawn_tick = 0;
 
 //adds all tables to list
 for (var i = 0; i < instance_number(obj_table); i++;)
