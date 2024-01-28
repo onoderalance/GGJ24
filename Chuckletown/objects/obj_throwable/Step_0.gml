@@ -15,7 +15,9 @@ if(_inst != noone)
 	if(_inst == m_throw_target)
 	{
 		//set values of the customer to satiated properly
-		m_throw_target.state = CUSTOMER_STATE.SATIATED;
+		if (_inst.cust_name == m_name) {
+			m_throw_target.state = CUSTOMER_STATE.SATIATED;
+		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
 		//KILL YOURSELF
 		instance_destroy();
