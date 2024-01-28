@@ -6,6 +6,7 @@ var cust_instance = instance_position(mouse_x,mouse_y,obj_customer);
 if cust_instance != noone 
 {
 	draw_self(); // a wild box was summoned!
+	draw_set_halign(fa_left);
 	draw_set_font(fnt_box);
 	draw_text(x+10, y+7,cust_instance.cust_name);
 	
@@ -20,19 +21,29 @@ if cust_instance != noone
 		draw_sprite(spr_mood, 4, x+10, y+30);
 	
 	// this is the drink pref
-	if cust_instance.drink_pref == "beer" // vodka + whisky
+	if(cust_instance.drink_pref == "beer") // vodka + whisky
+	{
 		draw_sprite(spr_ingredient_vodka, 0, x+30, y+30);
 		draw_sprite(spr_ingredient_whisky, 0, x+50, y+30);
-	if cust_instance.drink_pref == "fat twink" // vodka + seltzer
+	}
+	if(cust_instance.drink_pref == "fat twink") // vodka + seltzer
+	{
 		draw_sprite(spr_ingredient_vodka, 0, x+30, y+30);
 		draw_sprite(spr_ingredient_seltzer, 0, x+50, y+30);
-	if cust_instance.drink_pref == "boom box" // whisky + juice
+	}
+	if(cust_instance.drink_pref == "boom box") // whisky + juice
+	{
 		draw_sprite(spr_ingredient_whisky, 0, x+30, y+30);
 		draw_sprite(spr_ingredient_juice, 0, x+50, y+30);
-	if cust_instance.drink_pref == "allen wrench" // vodka + juice
+	}
+	if(cust_instance.drink_pref == "allen wrench") // vodka + juice
+	{
 		draw_sprite(spr_ingredient_vodka, 0, x+30, y+30);
 		draw_sprite(spr_ingredient_juice, 0, x+50, y+30);
-	if cust_instance.drink_pref == "san penguino" // seltzer + juice
+	}
+	if(cust_instance.drink_pref == "san penguino") // seltzer + juice
+	{
 		draw_sprite(spr_ingredient_seltzer, 0, x+30, y+30);
 		draw_sprite(spr_ingredient_juice, 0, x+50, y+30);
+	}
 }
