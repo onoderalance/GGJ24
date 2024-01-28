@@ -9,14 +9,29 @@ switch(state)
 			//set the table to what it is
 			cust_table = target_table;
 			alarm[2] = mood_change_time;
-			if (random(5) > 2) {
-				state = CUSTOMER_STATE.WANTS_DRINK;
-			} else {
-				current_drink = drink_array[irandom(5)];
-				current_cup = "beer";
-				alarm[1] = drink_time;
-				state = CUSTOMER_STATE.SATIATED;
+			//generate random mood
+			var _mood_odds = irandom_range(0,9);
+			switch(_mood_odds)
+			{
+				case 0:
+				case 1:
+				case 2:
+				case 3:
+				case 4:
+				case 5:
+					mood = 0; //neutral mood ivery likjely
+					break;
+				case 6:
+				case 7:
+				case 8:
+					mood = 1; //normal happy
+					break;
+				case 9:
+					mood = -1; //mad af
+					break;
 			}
+			state = CUSTOMER_STATE.WANTS_DRINK;
+			
 		}
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:

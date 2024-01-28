@@ -21,8 +21,6 @@ if(_inst != noone)
 			_inst.current_cup = m_cup;
 			_inst.alarm[1] = _inst.drink_time;
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
-		} else {
-			_inst.mood--;
 		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
 		//KILL YOURSELF
