@@ -31,7 +31,11 @@ switch(global.game_state)
 		}
 		//gameover case
 		else if(global.laughter <= 0)
+		{
+			obj_manager_music.playing_game = false;
+			obj_manager_music.music_state = 8;
 			global.game_state = 4;
+		}
 		break;
 	case 2: //case for second set
 		//SURVIVED SET 1
@@ -44,8 +48,14 @@ switch(global.game_state)
 		}
 		//gameover case
 		else if(global.laughter <= 0)
+		{
+			obj_manager_music.playing_game = false;
+			obj_manager_music.music_state = 8;
 			global.game_state = 4;
+		}
 		break;
 	case 3: //case for end state
+		obj_manager_music.playing_game = false;
+		obj_manager_music.music_state = 9;
 		break;
 }
