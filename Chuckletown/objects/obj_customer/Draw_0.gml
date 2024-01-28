@@ -2,6 +2,7 @@ if(global.debug)
 {
 	draw_set_color(c_white);
 	draw_path(m_path, x, y, false);
+	draw_text(x, y+16, string(mood));
 }
 
 draw_self();
