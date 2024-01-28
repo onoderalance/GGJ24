@@ -23,7 +23,7 @@ drink_time = 300;
 cust_table = noone;
 
 //how much it increases per customer
-inc_amount = 1;
+inc_amount = 0.2;
 
 //how often the laugh meter goes up
 inc_rate = 60;
@@ -41,7 +41,7 @@ mood_max_val = 4;
 mood_min_val = -3;
 mood_increasing = false;
 //how often to change mood
-mood_change_time = 50;
+mood_change_time = 300;
 
 current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
 
