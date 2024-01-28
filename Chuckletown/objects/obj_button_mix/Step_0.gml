@@ -23,61 +23,60 @@ if (mouse_check_button_pressed(mb_left)) {
 		//convert array to a number using binary, e.g. vokda and whisky is [1,1,0,0] = 12
 		var ingredients_code = (8*ing_arr[0]) + (4*ing_arr[1]) + (2*ing_arr[2]) + (1*ing_arr[3]);
 		
-		
 		switch(ingredients_code) {
 			case 12:
 				//create a beer
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "beer";
+				obj_bartender.m_drink.m_name = "beer";
 				m_new_drink = "beer";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				
 				break;
 			case 10:
 				//create a fat twink
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "fat twink";
+				obj_bartender.m_drink.m_name = "fat twink";
 				m_new_drink = "fat twink";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
 			case 9:
 				//create an allen wrench
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "allen wrench";
+				obj_bartender.m_drink.m_name = "allen wrench";
 				m_new_drink = "allen wrench";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
 			case 6:
 				//create a lowball
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "lowball";
+				obj_bartender.m_drink.m_name = "lowball";
 				m_new_drink = "lowball";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
 			case 5:
 				//create a boom box
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "boom box";
+				obj_bartender.m_drink.m_name = "boom box";
 				m_new_drink = "boom box";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
 			case 3:
 				//create a san penguino
-				m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
+				obj_bartender.m_drink = instance_create_layer(obj_bartender.x, obj_bartender.y, "instances",obj_drink);
 				//var newThrowable = instance_create_layer(obj_bartender.x, obj_bartender.y,"instances", obj_throwable);
-				m_drink.m_name = "san penguino";
+				obj_bartender.m_drink.m_name = "san penguino";
 				m_new_drink = "san penguino";
-				m_drink.m_cup = obj_bartender.m_cup;
+				obj_bartender.m_drink.m_cup = obj_bartender.m_cup;
 				obj_bartender.m_has_drink = true;
 				break;
 		}

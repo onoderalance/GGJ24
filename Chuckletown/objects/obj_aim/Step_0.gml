@@ -1,3 +1,5 @@
+visible = aiming;
+
 if (obj_bartender.m_has_drink) {
 	if(instance_exists(obj_customer) && target_set = false && obj_throwable.locked) {
 		angle_towards_target = point_direction(obj_bartender.x, obj_bartender.y, instance_nearest(mouse_x, mouse_y, obj_customer).x, instance_nearest(mouse_x, mouse_y, obj_customer).y);
@@ -66,10 +68,14 @@ if (aiming = true) {
 			show_debug_message("THROW!!!!");
 			show_debug_message("direction = " + string(direction));
 		}
-		//aiming = false;
+
+		//DESTROY DRINNK, SET LOCKED AND AIMING TO FALSE
 		alarm[2] = 7;
+		with (obj_bartender) {
+			instance_destroy(m_drink)
+			m_has_drink = false;
+		}
 		
-		//obj_throwable.locked = false;
 	}
 	
 	
