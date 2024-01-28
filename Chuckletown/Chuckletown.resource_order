@@ -77,6 +77,7 @@
     {"name":"spr_comedian","order":26,"path":"sprites/spr_comedian/spr_comedian.yy",},
     {"name":"obj_marimba","order":31,"path":"objects/obj_marimba/obj_marimba.yy",},
     {"name":"obj_bass","order":27,"path":"objects/obj_bass/obj_bass.yy",},
+    {"name":"snd_typewriter","order":10,"path":"sounds/snd_typewriter/snd_typewriter.yy",},
     {"name":"obj_musician","order":5,"path":"objects/obj_musician/obj_musician.yy",},
     {"name":"snd_glass_break","order":9,"path":"sounds/snd_glass_break/snd_glass_break.yy",},
     {"name":"spr_ingredient_vodka","order":7,"path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},
