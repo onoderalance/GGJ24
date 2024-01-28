@@ -70,6 +70,7 @@
     {"id":{"name":"spr_mood","path":"sprites/spr_mood/spr_mood.yy",},},
     {"id":{"name":"spr_ingredient_juice","path":"sprites/spr_ingredient_juice/spr_ingredient_juice.yy",},},
     {"id":{"name":"snd_throw","path":"sounds/snd_throw/snd_throw.yy",},},
+    {"id":{"name":"spr_title_button","path":"sprites/spr_title_button/spr_title_button.yy",},},
     {"id":{"name":"obj_bartender","path":"objects/obj_bartender/obj_bartender.yy",},},
     {"id":{"name":"obj_ui_time","path":"objects/obj_ui_time/obj_ui_time.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
