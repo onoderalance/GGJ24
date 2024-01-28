@@ -3,7 +3,8 @@
 
 draw_set_color(c_white);
 
-tick++;
+//tick++
+tick = tick + 10;
 
 if(i < textlen + 1)
 {
@@ -13,8 +14,8 @@ if(i < textlen + 1)
 		i++;
 		
 	xpos = 50;
-	ypos = 70;
-
+	ypos = 10; //70
+ 
 	for(var j = 1; j < i+1; j++)
 	{
 	
@@ -31,7 +32,7 @@ if(i < textlen + 1)
 else
 {
 	xpos = 50;
-	ypos = 70;
+	ypos = 10;
 	for (var k = 1; k < (textlen + 1); k++)
 	{
 		draw_text(xpos, ypos, string_char_at(intro_text, k));
@@ -44,6 +45,13 @@ else
 	
 	}
 }
+
+if mouse_check_button_pressed(mb_left)
+{
+    room = rm_henry;
+}
+
+
 
 
 
