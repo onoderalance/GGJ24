@@ -49,6 +49,8 @@ particle = noone;
 
 current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
 
+customer_sprite_id = choose("A", "B", "C", "D");
+
 //smiley face logic
 function check_current_state() {
 	if (mood >= 3) {

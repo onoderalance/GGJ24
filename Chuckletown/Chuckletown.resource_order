@@ -82,6 +82,7 @@
     {"name":"rm_connor","order":1,"path":"rooms/rm_connor/rm_connor.yy",},
     {"name":"obj_drums","order":29,"path":"objects/obj_drums/obj_drums.yy",},
     {"name":"spr_ingredient_seltzer","order":10,"path":"sprites/spr_ingredient_seltzer/spr_ingredient_seltzer.yy",},
+    {"name":"fnt_title","order":1,"path":"fonts/fnt_title/fnt_title.yy",},
     {"name":"spr_customer_display","order":18,"path":"sprites/spr_customer_display/spr_customer_display.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
     {"name":"rm_aria","order":3,"path":"rooms/rm_aria/rm_aria.yy",},

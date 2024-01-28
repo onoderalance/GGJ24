@@ -1,3 +1,5 @@
+depth = 0;
+
 occupied = false;
 
 table_id = global.num_tables;
