@@ -78,6 +78,7 @@
     {"id":{"name":"spr_bass","path":"sprites/spr_bass/spr_bass.yy",},},
     {"id":{"name":"spr_button_mix","path":"sprites/spr_button_mix/spr_button_mix.yy",},},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},},
+	{"id":{"name":"snd_crowd_noise","path":"sounds/snd_crowd_noise/snd_crowd_noise.yy",},},
     {"id":{"name":"obj_dotted_line","path":"objects/obj_dotted_line/obj_dotted_line.yy",},},
     {"id":{"name":"spr_glass_syringe","path":"sprites/spr_glass_syringe/spr_glass_syringe.yy",},},
     {"id":{"name":"obj_drink","path":"objects/obj_drink/obj_drink.yy",},},
