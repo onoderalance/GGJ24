@@ -3,7 +3,7 @@ if(customer_spawn_tick <= 0) {
 	if(table_available())
 	{
 		alarm[0] = customer_spawn_rate;
-		show_debug_message("called alarm0");
+		//show_debug_message("called alarm0");
 	}
 	customer_spawn_tick = customer_spawn_rate;
 }
@@ -11,5 +11,5 @@ if(customer_spawn_tick <= 0) {
 //decrement spawner
 customer_spawn_tick--;
 
-show_debug_message("num customer = " + string(total_num_customers));
+//show_debug_message("num customer = " + string(total_num_customers));
 
