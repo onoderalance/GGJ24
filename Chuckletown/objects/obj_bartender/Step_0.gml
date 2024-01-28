@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //hovering over ingredients
-var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
+var _ingredient = instance_position(mouse_x, mouse_y, obj_button_ingredient);
 if (_ingredient != noone) {
 	_ingredient.image_blend += 2;
 }
@@ -15,7 +15,7 @@ if (_glass != noone) {
 //clicking on ingredients
 if (mouse_check_button_pressed(mb_left)) {
 	//check if you clicked on an instance of an ingredient
-	var _ingredient = instance_position(mouse_x, mouse_y, obj_ingredient);
+	var _ingredient = instance_position(mouse_x, mouse_y, obj_button_ingredient);
 	if (_ingredient != noone) {
 		show_debug_message(_ingredient.m_name);
 		//add this ingredient to the ingredient list
