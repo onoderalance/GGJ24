@@ -34,6 +34,7 @@ if (obj_bartender.m_has_drink) {
 	image_angle = (image_angle %360);
 
 	if (aiming = true) {
+		
 		visible = true;
 		if (image_angle > ((angle_towards_target + angle_range)%360) && indicator_direction > 0) {
 			indicator_direction = -aim_speed;
