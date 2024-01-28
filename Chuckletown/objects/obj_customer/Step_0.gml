@@ -34,7 +34,7 @@ switch(state)
 				sprite_index = spr_customerD_idle;		
 			}
 			
-			
+				
 			switch(_mood_odds)
 			{
 				case 0:
