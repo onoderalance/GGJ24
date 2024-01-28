@@ -1,9 +1,20 @@
 //default depth
-depth = 0;
+depth = 1;
 
 switch(state)
 {
 	case CUSTOMER_STATE.ENTERING:
+		//walking:
+		if (customer_sprite_id = "A") {
+			sprite_index = spr_customerA_walk;
+		} else if (customer_sprite_id = "B") {
+			sprite_index = spr_customerB_walk;
+		} else if (customer_sprite_id = "C") {
+			sprite_index = spr_customerC_walk;		
+		} else {
+			sprite_index = spr_customerD_walk;		
+		}
+		
 		if(x == target_table.x+16 && y == target_table.y) //if they are at the table
 		{	
 			//set the table to what it is
@@ -11,6 +22,19 @@ switch(state)
 			alarm[2] = mood_decrease_time;
 			//generate random mood
 			var _mood_odds = irandom_range(0,9);
+			
+			//idle sprite:
+			if (customer_sprite_id = "A") {
+				sprite_index = spr_customerA_idle;
+			} else if (customer_sprite_id = "B") {
+				sprite_index = spr_customerB_idle;
+			} else if (customer_sprite_id = "C") {
+				sprite_index = spr_customerC_idle;		
+			} else {
+				sprite_index = spr_customerD_idle;		
+			}
+			
+			
 			switch(_mood_odds)
 			{
 				case 0:
@@ -35,7 +59,7 @@ switch(state)
 		}
 		
 		//SET ANNIMATION:
-		sprite_index = choose(spr_customerA_idle, spr_customerB_idle, spr_customerC_idle, spr_customerD_idle);
+		
 		
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:

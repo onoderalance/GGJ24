@@ -18,13 +18,32 @@ switch(global.game_state)
 	case 0: //case for intro
 		break;
 	case 1: //case for first set
+		//SURVIVED SET 1
+		if(global.time_sec >= SET_LENGTH)
+		{
+			obj_manager_customer.num_customers_to_create += round(obj_manager_customer.num_customers_max*.2);
+			global.game_state = 2;
+		}
+		else if(global.time_sec >= SET_LENGTH/2 && irandom(100) == 2)
+		{
+			if(obj_manager_customer.total_num_customers < round(obj_manager_customer.num_customers_max*.6))	
+				obj_manager_customer.num_customers_to_create++;
+		}
 		//gameover case
-		if(global.laughter <= 0)
+		else if(global.laughter <= 0)
 			global.game_state = 4;
 		break;
 	case 2: //case for second set
+		//SURVIVED SET 1
+		if(global.time_sec >= SET_LENGTH*2)
+			global.game_state = 3;
+		else if(global.time_sec >= SET_LENGTH*1.5 && irandom(100) == 2)
+		{
+			if(obj_manager_customer.total_num_customers < round(obj_manager_customer.num_customers_max))	
+				obj_manager_customer.num_customers_to_create++;
+		}
 		//gameover case
-		if(global.laughter <= 0)
+		else if(global.laughter <= 0)
 			global.game_state = 4;
 		break;
 	case 3: //case for end state

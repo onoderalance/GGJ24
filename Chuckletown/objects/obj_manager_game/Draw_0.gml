@@ -7,7 +7,7 @@ if(global.game_state == 0)
 	if(introdraw_tick >= INTRO_LENGTH)
 	{
 		//add customers, fill 75% for now
-		obj_manager_customer.num_customers_to_create += round(obj_manager_customer.num_customers_max*1);
+		obj_manager_customer.num_customers_to_create += round(obj_manager_customer.num_customers_max*.4);
 		//set to the first set state
 		global.game_state = 1;
 	}
