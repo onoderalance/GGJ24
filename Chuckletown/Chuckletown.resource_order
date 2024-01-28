@@ -88,6 +88,7 @@
     {"name":"fnt_title","order":1,"path":"fonts/fnt_title/fnt_title.yy",},
     {"name":"spr_customer_display","order":18,"path":"sprites/spr_customer_display/spr_customer_display.yy",},
     {"name":"obj_throwable","order":3,"path":"objects/obj_throwable/obj_throwable.yy",},
+    {"name":"obj_title_button","order":32,"path":"objects/obj_title_button/obj_title_button.yy",},
     {"name":"rm_aria","order":3,"path":"rooms/rm_aria/rm_aria.yy",},
     {"name":"spr_aim","order":23,"path":"sprites/spr_aim/spr_aim.yy",},
     {"name":"spr_button_background","order":21,"path":"sprites/spr_button_background/spr_button_background.yy",},

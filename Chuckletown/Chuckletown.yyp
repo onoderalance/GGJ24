@@ -110,6 +110,7 @@
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"spr_customer_display","path":"sprites/spr_customer_display/spr_customer_display.yy",},},
     {"id":{"name":"obj_throwable","path":"objects/obj_throwable/obj_throwable.yy",},},
+    {"id":{"name":"obj_title_button","path":"objects/obj_title_button/obj_title_button.yy",},},
     {"id":{"name":"rm_aria","path":"rooms/rm_aria/rm_aria.yy",},},
     {"id":{"name":"obj_ui_laugh","path":"objects/obj_ui_laugh/obj_ui_laugh.yy",},},
     {"id":{"name":"spr_aim","path":"sprites/spr_aim/spr_aim.yy",},},
