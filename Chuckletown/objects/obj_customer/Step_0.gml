@@ -14,6 +14,7 @@ switch(state)
 			} else {
 				current_drink = drink_array[irandom(5)];
 				current_cup = "beer";
+				alarm[1] = drink_time;
 				state = CUSTOMER_STATE.SATIATED;
 			}
 		}
