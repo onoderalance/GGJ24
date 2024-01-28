@@ -1,4 +1,4 @@
-if (instance_exists(obj_customer)) {
+if (instance_exists(obj_customer) && obj_bartender.m_has_drink) { //FREE
 	origin = obj_bartender
 		var x_orig = origin.x;
 		var y_orig = origin.y;
@@ -24,11 +24,11 @@ if (instance_exists(obj_customer)) {
 		y + lengthdir_y(i * _width, _angle),
 		1, 1, _angle, image_blend, image_alpha);
 	}
-	if (mouse_check_button(mb_left)) {
-		obj_throwable.locked = true;
-		chosen_customer_x = instance_nearest(mouse_x, mouse_y, obj_customer).x;
-		chosen_customer_y = instance_nearest(mouse_x, mouse_y, obj_customer).y;
-	}
+	//if (mouse_check_button(mb_left)) { //LOCKED
+	//	obj_throwable.locked = true;
+	//	chosen_customer_x = instance_nearest(mouse_x, mouse_y, obj_customer).x;
+	//	chosen_customer_y = instance_nearest(mouse_x, mouse_y, obj_customer).y;
+	//	}
 	
 	show_debug_message("drew dotted line");
 }
