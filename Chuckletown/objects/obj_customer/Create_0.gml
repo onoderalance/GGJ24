@@ -37,11 +37,11 @@ current_cup = "";
 
 //set mood to 0 by default and have max and min values
 mood = 0;
-mood_max_val = 4;
-mood_min_val = -3;
+mood_max_val = 2;
+mood_min_val = -1;
 mood_increasing = false;
 //how often to change mood
-mood_change_time = 300;
+mood_change_time = 500;
 
 current_state = "neutral" //"happy", "satisfied", "netural", "unhappy"
 
