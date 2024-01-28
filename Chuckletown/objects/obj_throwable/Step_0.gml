@@ -32,6 +32,8 @@ if(_inst != noone)
 				_inst.alarm[2] = _inst.mood_increase_time;
 			}
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
+		} else {
+			audio_play_sound(snd_glass_break, 1, false, 0.7, 0.7);
 		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
 		//KILL YOURSELF

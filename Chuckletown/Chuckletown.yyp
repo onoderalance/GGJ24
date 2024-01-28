@@ -87,6 +87,7 @@
     {"id":{"name":"spr_comedian","path":"sprites/spr_comedian/spr_comedian.yy",},},
     {"id":{"name":"obj_bass","path":"objects/obj_bass/obj_bass.yy",},},
     {"id":{"name":"obj_musician","path":"objects/obj_musician/obj_musician.yy",},},
+    {"id":{"name":"snd_glass_break","path":"sounds/snd_glass_break/snd_glass_break.yy",},},
     {"id":{"name":"spr_ingredient_vodka","path":"sprites/spr_ingredient_vodka/spr_ingredient_vodka.yy",},},
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
