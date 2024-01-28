@@ -1,8 +1,8 @@
-
-if(instance_exists(obj_customer) && target_set = false && obj_throwable.locked) {
-	angle_towards_target = point_direction(obj_bartender.x, obj_bartender.y, instance_nearest(mouse_x, mouse_y, obj_customer).x, instance_nearest(mouse_x, mouse_y, obj_customer).y);
-	target_set = true;
-}
+if (obj_bartender.m_has_drink) {
+	if(instance_exists(obj_customer) && target_set = false && obj_throwable.locked) {
+		angle_towards_target = point_direction(obj_bartender.x, obj_bartender.y, instance_nearest(mouse_x, mouse_y, obj_customer).x, instance_nearest(mouse_x, mouse_y, obj_customer).y);
+		target_set = true;
+	}
 
 show_debug_message("ANGLE");
 show_debug_message(angle_towards_target);
@@ -35,14 +35,13 @@ if (aiming = true) {
 	}
 	
 	
-	
-} else if (obj_throwable.locked = true) {
-	visible = true;
-	image_angle = point_direction(obj_bartender.x, obj_bartender.y, instance_nearest(mouse_x, mouse_y, obj_customer).x, instance_nearest(mouse_x, mouse_y, obj_customer).y);
-	//show_debug_message("changed image angle");
-	aiming = true;
+	} else if (obj_throwable.locked = true) {
+		visible = true;
+		image_angle = point_direction(obj_bartender.x, obj_bartender.y, instance_nearest(mouse_x, mouse_y, obj_customer).x, instance_nearest(mouse_x, mouse_y, obj_customer).y);
+		//show_debug_message("changed image angle");
+		aiming = true;
+	}
 }
-
 
 //throw
 //angle_towards_target = 0
