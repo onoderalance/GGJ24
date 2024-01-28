@@ -1,5 +1,5 @@
 //default depth
-depth = 0;
+depth = 1;
 
 switch(state)
 {
@@ -12,7 +12,7 @@ switch(state)
 		} else if (customer_sprite_id = "C") {
 			sprite_index = spr_customerC_walk;		
 		} else {
-			sprite_index = spr_customerC_walk;		
+			sprite_index = spr_customerD_walk;		
 		}
 		
 		if(x == target_table.x+16 && y == target_table.y) //if they are at the table
@@ -31,7 +31,7 @@ switch(state)
 			} else if (customer_sprite_id = "C") {
 				sprite_index = spr_customerC_idle;		
 			} else {
-				sprite_index = spr_customerC_idle;		
+				sprite_index = spr_customerD_idle;		
 			}
 			
 			
