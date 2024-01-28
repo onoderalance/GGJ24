@@ -15,8 +15,14 @@ if(_inst != noone)
 	if(_inst == m_throw_target)
 	{
 		//set values of the customer to satiated properly
-		if (_inst.cust_name == m_name) {
+		if (_inst.drink_pref == m_name) {
+			show_debug_message("CORRECT");
 			m_throw_target.state = CUSTOMER_STATE.SATIATED;
+			_inst.current_drink = instance_create_layer(_inst.x-16,_inst.y,"instances",obj_drink)
+			_inst.current_drink.m_name = self.m_name;
+			_inst.current_drink.m_cup = self.m_cup;
+		} else {
+			_inst.mood--;
 		}
 		//SET VALUES OF THE DRINK TO THE CUSTOMER!!!
 		//KILL YOURSELF

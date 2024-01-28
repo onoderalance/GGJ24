@@ -11,6 +11,7 @@ switch(state)
 	case CUSTOMER_STATE.WANTS_DRINK:
 		if (drink_pref == "") {
 			drink_pref = drink_array[irandom(5)];
+			show_debug_message("I want " + drink_pref);
 		}
 		count_inc_rate--;
 		//increase the laugh meter
