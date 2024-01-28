@@ -2,7 +2,11 @@ switch(state)
 {
 	case CUSTOMER_STATE.ENTERING:
 		if(x == target_table.x+16 && y == target_table.y)
+		{	
+			//set the table to what it is
+			cust_table = target_table;
 			state = CUSTOMER_STATE.WANTS_DRINK;
+		}
 		break;
 	case CUSTOMER_STATE.WANTS_DRINK:
 		count_inc_rate--;
